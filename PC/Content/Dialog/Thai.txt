@@ -196,15 +196,15 @@
 # Chapter Titles
 	AREA_CHAPTER=	บทที่ {x}
 	AREA_0=			อารัมภบท
-	AREA_1=			Forsaken City
-	AREA_2=			Old Site
-	AREA_3=			Celestial Resort
-	AREA_4=			Golden Ridge
-	AREA_5=			Mirror Temple
-	AREA_6=			Reflection
-	AREA_7=			The Summit
+	AREA_1=			เมืองที่ถูกทอดทิ้ง
+	AREA_2=			ไซต์เก่า
+	AREA_3=			รีสอร์ทเซเลสเชียล
+	AREA_4=			สันเขาสีทอง
+	AREA_5=			วิหารกระจก
+	AREA_6=			ภาพสะท้อน
+	AREA_7=			ยอดเขา
 	AREA_8=			บทส่งท้าย
-	AREA_9=			Core
+	AREA_9=			ใจกลาง
 	AREA_10=		ลาก่อน
 
 # Checkpoints
@@ -349,7 +349,7 @@
 	TUTORIAL_HOLD=		กดค้างไว้
 	TUTORIAL_DASH=		พุ่ง
 	TUTORIAL_DREAMJUMP=	กระโดด
-	TUTORIAL_CARRY=		เก็บ
+	TUTORIAL_CARRY=		ยก
 
 # Area Complete
 	AREACOMPLETE_NORMAL=				บทเสร็จสมบูรณ์
@@ -653,7 +653,7 @@
 		พื้นที่แถวนี้ค่อนข้างซับซ้อน,{n}คุณจะกลับมาเร็ว ๆ นี้ไหม?
 		
 		[MADELINE right normal]
-		ไม่. ฉันกำลังมุ่งหน้าไปยัง the summit.
+		ไม่. ฉันกำลังมุ่งหน้าไปยังยอดเขา
 		
 		[THEO left excited]
 		ฉันเห็นความตั้งใจในดวงตาของคุณจริงๆ!
@@ -665,7 +665,7 @@
 		ถ้าคุณพูดเช่นนั้น
 
 		[MADELINE right normal]
-		ฉันพนันได้เลยว่าคุณสามารถไปถึง the summit ได้เช่นกัน
+		ฉันพนันได้เลยว่าคุณสามารถไปถึงยอดเขาได้เช่นกัน
 
 		[THEO left normal]
 		อาจจะ 
@@ -866,7 +866,7 @@
 		คุณเดินทางมาที่นี่เพื่อสำรวจซากปรักหักพังเก่า ๆ เหล่านี้ด้วยใช่ไหม?
 		
 		[MADELINE right sad]
-		เอ่อ... ไม่, ฉันกำลังมุ่งหน้าไปยัง the summit.
+		เอ่อ... ไม่, ฉันกำลังมุ่งหน้าไปยังยอดเขา
 		
 		[THEO left excited]
 		โว้ว, นั่นบ้ามาก!
@@ -971,7 +971,7 @@
 		ฉันแค่{.2} ไม่ใช่... ช่างภาพ
 		
 		[THEO left normal]
-		{+MADELINE}, อย่าทำให้ตัวเองลำบากสิ!
+		{+MADELINE}, อย่ากดดันตัวเองนักเลย!
 		ไม่มีใครดูดีโดยไม่ใช้ฟิลเตอร์
 
 		{trigger 0 Add filter to selfie}
@@ -1036,7 +1036,7 @@
 		ไม่เป็นไร, ก็แค่...
 		
 		[MOM_PHONE right concerned]
-		โอ้ ไม่, ลูกวิตกกังวลอีกแล้วใช่ไหม?
+		โอ้ ไม่, ลูกมีอาการแพนิกอีกแล้วใช่ไหม?
 		ใจเย็นนะลูก, แม่อยู่ที่นี่.
 		เกิดอะไรขึ้น?
 
@@ -1802,625 +1802,625 @@
 
 	CH4_GRANNY_1=
 		[MADELINE left upset]
-		Oh great, you again.
+		โอ้ เยี่ยม. ยายอีกแล้ว
 
 		{trigger 3 zoom in}
 		
 		[GRANNY right normal]
-		Well well, I didn't expect to see you up here!
-		I'm glad you're still in one piece.
-		I see you made it through the hotel,{n}did you meet {+mroshiro}?
+		ก็ดี, ฉันไม่ได้คาดหวังจะเจอเธอที่นี่!
+		ฉันดีใจที่เธอยังอยู่ดี
+		ฉันเห็นเธอผ่านโรงแรมมาแล้ว,{n}ได้เจอกับ {+mroshiro} ไหม?
 
 		{trigger 4 maddy turns around}
 		
 		[MADELINE left upset flip]
-		Oh, I met him alright.
-		He chased me out of there.
-		After I cleaned up a bunch of junk for him.
+		โอ้, ฉันได้เจอเขาแล้ว
+		เขาไล่ฉันจากที่นั่น
+		หลังจากที่ฉันทำความสะอาดขยะให้เขา
 
 		{trigger 0 Start Laughing}
 		
 		[GRANNY right laugh]
-		Oh ho ho, that sounds like a fun morning.
+		โอ้ โฮะ โฮะ, ฟังเหมือนเรื่องสนุกยามเช้าเลย
 
 		{trigger 1 Stop Laughing}
 		
 		[GRANNY right normal]
-		{+oshiro} is a lost soul, dear.
-		That place is much more than just a hotel to him.
-		Don't make him your project.
+		{+oshiro} คือวิญญาณที่หายไป, ที่รัก
+		สถานที่แห่งนั้นเป็นมากกว่าโรงแรมสำหรับเขา
+		อย่าทำให้เรื่องของเขาทำให้เธอคิดมาก
 
 		{trigger 5 maddy approaches}
 		
 		[MADELINE left angry]
-		You know what I think?
-		I think this {+mountain} drove both of you crazy.
+		ยายรู้ไหมว่าฉันคิดอะไรอยู่?
+		ฉันคิดว่า {+mountain} ทำให้เราทั้งคู่บ้าไปแล้ว
 
 		{trigger 2 Wait a beat}
 		
 		[GRANNY right normal]
-		Y'know, you're not the first person to say that.
+		รู้น่า, เธอไม่ใช่คนแรกที่พูดแบบนั้น
 
 		{trigger 0 Start Laughing}
 		
 		[GRANNY right laugh]
-		Maybe you're right.
-		How would I know if I were crazy?
+		บางทีเธออาจจะพูดถูก
+		แล้วฉันจะรู้ได้อย่างไรว่าฉันบ้า?
 
 		{trigger 1 Stop Laughing}
 		
 		[GRANNY right normal]
-		The way I see it, the {+mountain} can't{n}bring out anything that isn't already in you.
+		อย่างที่ฉันเห็น {+mountain} ไม่สามารถ{n}นำสิ่งที่ไม่มีอยู่ในตัวเธอออกมา
 
 		{trigger 0 Start Laughing}
 		
 		[GRANNY right laugh]
-		But you gotta be a few crows short of a murder{n}to live up here in the first place, right?
+		แต่เธอต้องเป็นฆ่าอีกาสองสามตัว{n}เพื่ออาศัยอยู่ที่นี่ตั้งแต่แรกใช่ไหม??
 
 		{trigger 2 Wait a beat}
 		
 		[MADELINE left upset]
-		What are you even talking about?
+		ยายกำลังพูดถึงอะไร?
 
 		{trigger 1 Stop Laughing}
 		
 		[GRANNY right mock]
-		Oh, I'm just rambling like the old bat I am.
+		โอ้, ฉันแค่พูดไปเรื่อย เหมือนค้างคาวแก่ ๆ ไง
 
 		[GRANNY right normal]
-		Are you ready to give up?{n}I know a shortcut back to your car.
+		คุณพร้อมที่จะยอมแพ้หรือยัง?{n}ฉันรู้ทางลัดกลับไปที่รถของคุณ
 
 		{trigger 6 Maddy walks past granny}
 		 
 		[MADELINE right upset flip]
-		Back off, lady.
-		I'm heading for the summit.
+		ถอยไป, คุณยาย
+		ฉันกำลังมุ่งหน้าไปยังยอดเขา
 		
 		[GRANNY left normal flip]
-		Sometimes it's hard to tell the difference{n}between stubbornness and determination, isn't it?
-		You remind me of myself when I was young.
+		บางครั้งมันก็ยากที่จะบอกความแตกต่าง{n}ระหว่างความดื้อรั้นกับความมุ่งมั่นใช่ไหม?
+		เธอทำให้ฉันนึกถึงตัวเองเมื่อฉันยังเด็ก
 
 		{trigger 0 Start Laughing}
 
 		[GRANNY left laugh flip]
-		Good luck, and mind the wind!
+		ขอให้โชคดี, และระวังลมด้วย!
 
 	CH4_GRANNY_2=
 		[MADELINE left upset]
-		You don't get many visitors up here, do you?
+		ยายบนนี้ไม่ค่อยมีนักท่องเที่ยว, ใช่ไหม?
 
 		[GRANNY right normal]
-		No, I can't say I do.
-		I don't mind the solitude, though.
+		ไม่, ฉันพูดไม่ได้ว่ามีไหม
+		แต่ฉันก็ชอบความสันโดษ
 
 		[MADELINE left distracted]
-		Sometimes I think I should live in solitude too.
+		บางครั้งฉันก็คิดว่าฉันควรอยู่อย่างสันโดษเหมือนกัน
 
 		[MADELINE left sad]
-		I really tried to get through to {+mroshiro}.{n}I wanted to help him.
+		ฉันเคยผ่านไปยัง {+mroshiro}. จริง ๆ{n}ฉันต้องการช่วยเขา
 
 		[GRANNY right normal]
-		{+OSHIRO} needs to move on from that hotel.
-		But it's not going to happen on your schedule.
-		And it doesn't help that you've got something to prove.
+		{+OSHIRO} ต้องไปจากโรงแรมนั้น
+		แต่มันจะไม่เกิดขึ้นตามที่เธอต้องการ
+		และมันไม่ได้ช่วยอะไรที่เธอจะต้องพิสูจน์สิ่งนั้น
 
 		[MADELINE left distracted]
 		...
 
 	CH4_GRANNY_3=
 		[MADELINE left sad]
-		Don't you get lonely in that little cabin?
+		คุณไม่เหงาในกระท่อมเล็ก ๆ นั้นหรือ?
 
 		[GRANNY right normal]
-		I have friends, dear.
+		ฉันก็มีเพื่อนนะ, ที่รัก
 
 		[GRANNY right mock]
-		I may be crazy, but I'm not a hermit.
+		ฉันอาจดูเหมือนคนบ้า, แต่ฉันไม่ใช่ฤๅษี
 
 		[MADELINE left distracted]
-		Sorry.
-		I didn't mean to assume.
+		ขอโทษ.
+		ฉันไม่ได้คิดแบบนั้น
 
 		[GRANNY right normal]
-		When I was younger I couldn't imagine{n}staying in one place for this long.
-		But then I found this {+MOUNTAIN}.
-		I knew right away that it would be my home.
+		ตอนที่ฉันยังเด็กฉันนึกไม่ถึงว่า{n}จะอยู่ที่เดียวได้นานขนาดนี้
+		แต่แล้วฉันก็พบสิ่งนี้ {+MOUNTAIN}.
+		ฉันรู้ทันทีว่ามันจะเป็นบ้านของฉัน
 
 		[MADELINE left sad]
-		What's so special about it?
+		มีอะไรพิเศษเกี่ยวกับที่นี่เหรอ?
 
 		[GRANNY right normal]
-		The {+MOUNTAIN} shows you who you really are.
-		Whether you're ready for it or not.
-		It keeps me honest.
+		{+MOUNTAIN} แสดงให้คุณเห็นว่าคุณเป็นใครจริงๆ
+		ไม่ว่าคุณจะพร้อมหรือไม่
+		มันทำให้ฉันเป็นคนเปิดเผย
 
 	CH4_GONDOLA=
 		{anchor top}
 		[UNKNOWN]
-		{+MADELINE}! Wait up!
+		{+MADELINE}! รอก่อน!
 
 		{trigger 0 Enter Theo from above, he falls and lands on the ground face-down}
 		
 		[THEO left nailedit]
-		{%}{*}N a i l e d    i t .{/*}{/%}
+		{%}{*}เจ็บชะมัด{/*}{/%}
 
 		{trigger 1 Check on Theo}
 		
 		[MADELINE right sad]
-		{+theo}! Are you alright?
+		{+theo}! คุณเป็นอะไรไหม?
 		
 		[THEO left nailedit]
-		Oof. Yeah. 
-		Just give me a sec.
+		อุ๊ฟ. ไม่. 
+		ขอเวลาแป๊ป
 
 		{trigger 2 Theo gets up}
 		
 		[THEO left excited]
-		A gondola! I've always wanted to ride one of these.
+		กระเช้าไฟฟ้า! ฉันอยากจะลองขึ้นดูซักครั้งหนึ่งมาโดยตลอด
 		
 		[MADELINE right sad]
-		It looks pretty old, but maybe it still works.
+		มันดูเหมือนจะเก่า, แต่อาจจะยังใช้งานได้
 		
 		[MADELINE right distracted]
-		I don't see any other way to cross this chasm.
+		ฉันไม่เห็นทางอื่น ที่จะข้ามเหวนี้ได้
 		
 		[THEO left excited]
-		Let's do it!
+		มาลองดูกัน!
 
 		{trigger 3 Look at Lever}
 		
 		[THEO right normal]
-		This lever looks important.
+		คันโยกนี้ดูสำคัญ
 
 		{trigger 4 Pull Lever}
 		
 		[THEO right normal]
-		Easy every time.
+		ง่าย ๆ เหมือนทุกที
 
 		[THEO right thinking]
-		I was probably a gondola operator in a past life.
+		ฉันอาจจะเป็นคนขับกระเช้าไฟฟ้าในชีวิตที่ผ่านมา
 
 		[MADELINE left distracted]
-		Do you think this thing is safe?
+		คุณคิดว่าเจ้าสิ่งนี้ปลอดภัยไหม?
 
 		[THEO right normal]
-		I'm sure it's fine.
+		ฉันมั่นใจว่ามันจะไม่เป็นไร
 
 		{trigger 5 Wait a bit}
 
 		[THEO right normal]
-		How'd it shake out with {+oshiro}?
+		คุณออกมาจาก {+oshiro} ได้ไง?
 
 		[MADELINE left sad]
-		You were right.
+		คุณคิดถูก
 
 		[MADELINE left distracted]
-		I shouldn't have tried to help him.
+		ฉันไม่น่าจะพยายามช่วยเขา
 
 		[THEO right thinking]
-		I hate to say I told you so, but...
+		ฉันไม่อยากจะพูดว่าฉันบอกคุณแล้ว, แต่...
 
 		[MADELINE left upset]
-		Yeah yeah...
-		I should've listened to you.
+		ใช่ ใช่...
+		ฉันควรจะฟังคุณ
 
 		[THEO right normal]
-		You didn't get hurt, that's what matters.
+		ที่สำคัญคือ คุณไม่ได้รับบาดเจ็บ
 		
 		{trigger 5 Wait a bit}
 		
 		[MADELINE left sad]
-		The air is so thin up here.
+		อากาศเบาบางขึ้นที่นี่
 
 		[MADELINE left distracted]
-		I can barely breathe.
+		ฉันแทบหายใจไม่ออก
 
 		{trigger 6 Wait for gondola to reach center}
 		
 		[THEO right excited flip]
-		Okay, if we don't get a selfie on{n}this thing we're going to regret it.
+		เอาล่ะ, ถ้าเราไม่ได้เซลฟี่กับ{n}สิ่งนี้เราจะต้องเสียใจ
 
 		[MADELINE left distracted flip]
-		I can't even see the ground through the mist...
-		How high up are we?
+		ฉันมองไม่เห็นพื้นดินผ่านหมอกนี่เลย...
+		เราอยู่สูงแค่ไหน?
 
 		[THEO right thinking flip]
-		Less panicking, more posing.
+		หยุดวิตก และทำตัวดี ๆ
 
 		{trigger 7 Seflie, then gondola stalls out and badeline appears}
 		{anchor bottom}
 		
 		[MADELINE left surprised]
-		What was that?
+		เมื่อกี้คืออะไร?
 		
 		[THEO right wtf flip]
-		Huh. Looks like we stalled out.
+		หืม. ดูเหมือนจะไม่มีทางออกเลยแฮะ
 
 		{trigger 8 Madeline moves left}
 		
 		[MADELINE left sad]
-		This is really bad...
+		นี่มันแย่จริง ๆ...
 
 		[THEO right wtf]
-		Maybe if I...
+		บางทีถ้าฉัน...
 
 		{trigger 9 lever snaps off}
 		
 		[THEO right worried]
-		Well, that's not good.
+		เยี่ยม, ดูไม่ดีเลย
 
 		{trigger 10 tentacles appear}
 		
 		[MADELINE left panic]
-		No, this really isn't good.
+		ไม่, มันไม่ดีแล้วจริง ๆ
 
 		{trigger 11 tentacles grow}
 		
 		[THEO right worried]
-		{+MADELINE}, you cool?
+		{+MADELINE}, คุณเป็นไรไหม?
 
 		[MADELINE left panic]
-		Yeah... I just...
+		ใช่... ฉันแค่...
 
 		{trigger 12 Maddy can't breathe}
 
 		[MADELINE left panic]
-		No, I'm not cool.
-		I can't breathe.
+		ไม่, ฉันรู้สึกไม่ดี
+		ฉันหายใจไม่ออก
 		
 		[THEO right serious]
-		You're having a panic attack.
+		คุณมีอาการแพนิกอีกแล้วใช่ไหม?
 
 		[MADELINE left angry]
-		Why would you think it's a good{n}idea to ride this stupid thing?
+		คุณลองคิดแต่เรื่องดี ๆ ดูสิ{n}อย่าคิดแต่เรื่องแย่ ๆ
 
 		[THEO right thinking]
-		Come on, don't take this out on me.
+		ไม่เอาน่า, อย่าทำแบบนี้ต่อหน้าฉัน
 
 		[THEO right serious]
-		Stay with me here.
-		My grandpa taught me a trick for this.
-		Close your eyes.
+		อยู่กับฉันก่อน
+		คุณปู่ของฉันสอนเคล็ดลับสำหรับเรื่องนี้ให้ฉัน
+		หลับตานะ
 
 		{trigger 13 Play breathing minigame}
 		
 		[THEO right normal]
-		See? Easy every time.
+		เห็นไหม? มันง่ายมากเลยใช่ไหม?
 
 		{trigger 14 Gondola continues to the end station}
 
 		{anchor top}
 		
 		[THEO left normal]
-		Feeling any better?
+		รู้สึกดีขึ้นไหม?
 		
 		[MADELINE right distracted flip]
-		I think so. Thanks for helping me calm down.
+		ฉันคิดว่างั้น. ขอบคุณที่ช่วยให้ฉันดีขึ้น
 
 		{trigger 15 Wait a bit}
 		
 		[MADELINE right sad flip]
-		How did you know we'd start moving again?
+		คุณจะรู้ได้ไง ว่ามันจะเคลื่อนที่อีกครั้ง?
 		
 		[THEO left normal]
-		Oh, I totally thought we were done for.
+		โอ้, ฉันคิดว่าเราทำสำเร็จแล้ว
 
 		{trigger 16 Theo takes out phone}
 		
 		[THEO left excited]
-		Oh. My. God.
+		โอ้. มาย. ก๊อด.
 		{silent_trigger 17 Maddy faces theo}
-		Look at this selfie though!
+		ดูรูปเซลฟี่นี้สิ!
 
 	CH4_GONDOLA_FEATHER_1=
-		Picture a feather floating in front of you.
+		ลองนึกภาพขนนกให้ลอยอยู่ตรงหน้าคุณ
 
 	CH4_GONDOLA_FEATHER_2=
-		See it?
+		มองเห็นไหม?
 
 	CH4_GONDOLA_FEATHER_3=
-		Okay.
+		โอเค
 	
 	CH4_GONDOLA_FEATHER_4=	
-		Your breathing keeps that feather floating.
+		การหายใจของคุณทำให้ขนนั้นลอยอยู่
 
 	CH4_GONDOLA_FEATHER_5=
-		Just breathe slow and steady, in and out.
+		แค่หายใจเข้าและออกช้าๆ สม่ำเสมอ
 
 # *** Chapter 05 ***
 
 	CH5_ENTRANCE=
 		[THEO right excited flip]
-		Oh man, look at this place!
-		Feeling adventurous?
+		โอ้เพื่อน, ดูที่นี่สิ!
+		ให้ความรู้สึกเหมาะกับการผจญภัยไหม?
 
 		{trigger 0 Maddy turns right}
 
 		[MADELINE left sad]
-		Uh, I don't know. 
-		It looks pretty dark in there.
+		เอ่อ, ฉันไม่รู้
+		มันดูมืดและสวยดีในนั้น
 
 		[MADELINE left distracted]
-		More like a nightmare than an adventure.
+		เหมือนฝันร้ายมากกว่าการผจญภัย
 
 		{trigger 1 Theo turns left}
 		
 		[THEO right normal]
-		I'll just take a quick peek, snap a few photos.
+		ฉันจะลองแอบดู, และถ่ายรูปสองสามรูป
 
 		{trigger 1 Theo turns right}
 
 		[THEO right excited flip]
-		This place must be ancient!
+		สถานที่แห่งนี้ดูเก่าแก่มาก
 
 		[MADELINE left sad]
-		{+THEO}, wait.
+		{+THEO}, เดี๋ยว.
 		
 		[THEO right excited flip]
-		My {# FFFF4C}InstaPix{#} followers are gonna eat this up.
+		ผู้ติดตาม {# FFFF4C}InstaPix{#} ของฉันจะต้องชอบแน่ ๆ
 
 		{trigger 2 Theo leaves}
 		
 		[MADELINE left distracted]
-		There's no way this ends well.
+		มันไม่มีทางจบลงด้วยดีแน่ ๆ
 
 	CH5_PHONE=
 		[MADELINE left sad]
-		Uh oh.
+		เอ่อ โอ้
 
 		{trigger 0 Maddy walks to phone, ducks to pick it up}
 
 		[MADELINE left distracted]
-		This is {+THEO}'s phone...
+		นี่คือโทรศัพท์ของ {+THEO}...
 
 		{trigger 1 Maddy stands back up}
 
 		[MADELINE left determinedclosed]
-		Don't panic, {+MADELINE}.
-		Maybe it just fell out of his pocket.
-		I'll give it back to him when I find him.
+		อย่าแพนิก, {+MADELINE}.
+		บางทีมันอาจจะตกจากกระเป๋าของเขา
+		ฉันจะคืนให้เขาเมื่อฉันพบเขา
 
 	CH5_THEO_MIRROR=
 		[MADELINE left normal]
-		{+theo}! There you are!
+		{+theo}! คุณอยู่ไหน!
 		
 		[THEO_MIRROR right excited]
-		{+MADELINE}! Hey!
+		{+MADELINE}! เฮ้!
 		
 		[THEO_MIRROR right wtf]
-		...uh, why are you inside a mirror?
+		...เอ่อ, ทำไมคุณไปอยู่ในกระจก?
 		
 		[MADELINE left sad]
-		I'm pretty sure you're the one in the mirror.
-		What happened?
+		ฉันค่อนข้างมั่นใจว่าคุณคือคนที่อยู่ในกระจกนะ
+		เกิดอะไรขึ้น?
 		
 		[THEO_MIRROR right wtf]
-		Well, I was taking a nonchalant mirror selfie...
-		Y'know, {~}{# aaaaaa}"It's your boy {+THEO}{# aaaaaa} in this{n}ancient temple, no big deal."{#}{/~}
+		ก็, ฉันกำลังถ่ายเซลฟี่กับกระจก...
+		คุณรู้ไหม, {~}{# aaaaaa}"{+THEO} เพื่อนของคุณ{# aaaaaa} ใน{n}วิหารโบราณแห่งนี้, มันไม่ใช่เรื่องใหญ่"{#}{/~}
 
 		[THEO_MIRROR right thinking]
-		{# ffff9b}\#blessed{#}
+		{# ffff9b}\#มีความสุข{#}
 		
 		[THEO_MIRROR right serious]
-		Next thing I know I wake up lying on the ground.
+		สิ่งต่อไปที่ฉันรู้ ฉันตื่นขึ้นมาบนพื้น
 		
 		[MADELINE left sad]
-		What does it look like over there?
-		How can I find you?
+		ที่นั่นหน้าตาเป็นยังไง?
+		ฉันจะหาคุณเจอได้อย่างไร?
 		
 		[THEO_MIRROR right serious]
-		It's, uh... it's really dark and weird. There's...
+		มัน, เอ่อ... มันมืดมาก ๆ และดูแปลก ๆ มันมี...
 		
 		[THEO_MIRROR right wtf]
-		Wait, something's coming.
-		I'm feeling a strong inclination to run away.
+		เดี๋ยว, มีบางอย่างกำลังมา
+		ฉันรู้สึกว่า ฉันควรวิ่งหนี
 		
 		[THEO_MIRROR right serious]
-		Be careful, okay?
+		ดูแลตัวเองด้วย, โอเคนะ?
 
 	CH5_SHADOW_MADDY_0=
 		[MADELINE left angry]
-		{*}Hey!{/*} Where are we?
-		{!}What did you do to {+theo}?{/!}
+		{*}เฮ้!{/*} เราอยู่ที่ไหน?
+		{!}คุณทำอะไรกับ {+theo}?{/!}
 		
 		[BADELINE right scoff]
-		You think {~}I'm{/~} doing this?
-		That's cute.
+		คุณคิดว่า {~}ฉัน{/~} ทำเรื่องนี้เหรอ?
+		น่ารักจัง
 		
 		[BADELINE right upset]
-		Sweetheart, this is exactly what I warned you about.
+		ที่รัก, นี่คือสิ่งที่ฉันเคยเตือนคุณแล้ว
 		
 	CH5_SHADOW_MADDY_1=
 		[MADELINE left angry]
-		Don't try to make this my fault.
+		อย่าพยายามโยนเรื่องนี้ให้เป็นความผิดของฉัน
 
 		[BADELINE right scoff]
-		You still don't get it?
+		คุณยังไม่เข้าใจอีกเหรอ?
 
 		[BADELINE right upset]
-		The {+mountain} gave me this body.
+		{+mountain} ให้ร่างกายนี้แก่ฉัน
 
 		[BADELINE right scoff]
-		But I'm not the only {*}creepy thing{/*} living{n}in that messed up head of yours.
+		แต่ฉันไม่ใช่คนเดียวที่มี {*}สิ่งที่น่าขนลุก{/*} อาศัยอยู่{n}ในหัวที่วุ่นวายนั้น
 
 		[BADELINE right normal]
-		Don't like what you see?
+		ไม่ชอบสิ่งที่เห็นเหรอ?
 
 		[BADELINE right scoff]
-		{~}What a surprise.{/~}
+		{~}ช่างน่าประหลาดใจ{/~}
 		
 		[MADELINE left angry]
-		Shut up!
+		หุบปาก!
 
 		[BADELINE right angry]
-		I {~}tried{/~} to stop you.
+		ฉัน {~}พยายาม{/~} เพื่อจะหยุดคุณ
 
 		[BADELINE right yell]
-		Look into the mirror, all of this is yours.
+		มองเข้าไปในกระจกสิ, ทั้งหมดนี้เป็นของคุณ
 
 		[BADELINE right angry]
-		This temple only magnifies the {+mountain}'s power.
+		วิหารนี้ขยายพลังของ {+mountain} เท่านั้น
 
 		[BADELINE right upset]
-		You're in control here, not me.
+		คุณเป็นผู้ควบคุมที่นี่, ไม่ใช่ฉัน
 
 	CH5_SHADOW_MADDY_2=
 		[MADELINE left sad]
-		I don't believe you.
+		ฉันไม่เชื่อคุณ
 
 		[MADELINE left distracted]
-		If you're {+PART_OF_ME}, why do you want to hurt me?
+		ถ้าคุณเป็น {+PART_OF_ME}, ทำไมคุณถึงอยากทำร้ายฉัน?
 
 		[BADELINE right angry]
-		Poor {+MADELINE}, {~}always the victim.{/~}
+		{+MADELINE} ผู้น่าสงสาร, {~}ตกเป็นเหยื่อเสมอ{/~}
 
 		[BADELINE right yell]
-		All I do is babysit you, and you hate me for it.
+		ทั้งหมดที่ฉันทำคือดูแลคุณ, แต่คุณเกลียดฉัน
 
 		[BADELINE right angry]
-		You're unravelling and you know it. 
+		คุณกำลังคิดไม่ตกและคุณก็รู้ว่าทำไง
 
 		[MADELINE left angry]
-		If you care so much about protecting me,{n}why didn't you just {*}explain{/*} what was going on?
+		ถ้าคุณสนใจที่จะปกป้องฉันมาก,{n}ทำไมคุณถึงไม่ {*}อธิบาย{/*} ว่าเกิดอะไรขึ้น?
 		
 		[BADELINE right angry]
-		Like you would have listened?
-		You never gave me a chance.
+		คุณจะไปได้ยินได้ไง?
+		ในเมื่อคุณไม่เคยให้โอกาสฉันอธิบายเลย
 
 	CH5_SHADOW_MADDY_3=
 		[MADELINE left panic]
-		Please, just help me get out of here.
+		ได้โปรด, แค่ช่วยฉันให้ออกไปจากที่นี่
 
 		[BADELINE right scoff]
-		{~}Now{/~} you want me to save you?
+		{~}ตอนนี้{/~} คุณต้องการให้ฉันช่วยไหม?
 
 		[MADELINE left panic]
-		Why are you doing this?
-		Just be on my side here.
-		Please.
+		ทำไมคุณทำแบบนี้?
+		แค่อยู่เคียงข้างฉันตรงนี้
+		ได้โปรด
 
 		[BADELINE right angry]
-		Stop trying to make me feel like a monster.
-		You {~}really{/~} want to know why I won't help?
+		หยุดพยายามทำให้ฉันรู้สึกเหมือนสัตว์ประหลาด
+		คุณ {~}อยากรู้{/~} จริง ๆ เหรอว่าทำไมฉันถึงไม่ยอมช่วย?
 
 		[BADELINE right yell]
-		Because you {*}deserve{/*} this.
+		เพราะคุณ {*}ไม่สมควร{/*} ที่จะได้รับสิ่งนี้
 
 		[MADELINE left panic]
 		...
 
 		[BADELINE right angry]
-		Still think you can {~}climb this {+MOUNTAIN}?{/~}
+		ยังคิดว่าคุณยังสามารถ {~}ปีน {+MOUNTAIN} นี้ได้ไหม?{/~}
 
 		[MADELINE left angry]
-		{*}SHUT UP!{/*}
+		{*}หุบปาก!{/*}
 
 		{trigger 0 Badeline Leaves}
 
 		[MADELINE left angry]
-		{*}I don't need your help.{/*}
-		I'll do this alone.
+		{*}ฉันไม่ต้องการความช่วยเหลือจากคุณ{/*}
+		ฉันจะจัดการคนเดียว
 
 	CH5_REFLECTION=
 		[MADELINE right sad]
-		If this is all in my head, why is it so hostile?
+		ถ้าทั้งหมดนี้อยู่ในหัวของฉัน ทำไมฉันถึงโดนโจมตีล่ะ?
 		
 		[MADELINE right distracted]
-		Those {*}things{/*} are hunting me.
-		I'm a trespasser in my own world.
+		พวก {*}มัน{/*} กำลังตามล่าฉัน
+		ฉันเป็นผู้บุกรุกในโลกของฉันเอง
 
 		{trigger 0 Madeline falls to knees}
 		
 		[MADELINE right panic]
-		{+theo} is trapped somewhere in here because of me.
-		If I give in fully, maybe the temple will let him go...
+		{+theo} ติดอยู่ที่ไหนสักแห่งที่นี่เพราะฉัน
+		บางทีวิหารอาจจะปล่อยเขาไป...
 
 		{trigger 1 Madeline stops panicking}
 
 		[MADELINE_MIRROR left determinedclosed flip]
 		...
-		Breathe.
+		ใจเย็น ๆ
 		
 		[MADELINE_MIRROR left determined flip]
-		This is all coming from inside me.
-		Get up, {+MADELINE}.
+		เรื่องทั้งหมดนี้มาจากในตัวฉัน
+		ลุกขึ้น, {+MADELINE}.
 
 		{trigger 2 Madeline gets up}
 
 		[MADELINE_MIRROR left determinedclosed flip]
-		Think of the feather.
-		You can save {+theo}.
+		ลองนึกถึงขนนก
+		คุณสามารถช่วย {+theo}. ได้
 
 	CH5_SEE_THEO=
 		[MADELINE left normal]
-		{+theo}! Thank God I found you.
+		{+theo}! ขอบคุณพระเจ้า ฉันเจอคุณแล้ว
 		
 		[THEO right excited]
-		{+MADELINE}! Wow, am I happy to see you.
+		{+MADELINE}! ว้าว, ฉันดีใจมากที่เจอเธอ
 
 		{trigger 0 zoom in}
 
 		[MADELINE left sad]
-		Are you alright?
+		คุณสบายดีไหม?
 		
 		[THEO right serious]
-		Yeah, I'm fine. 	
+		ใช่, ฉันสบายดี
 
 		[THEO right thinking]
-		I've just been stuck in this... crystal thing for ages.
+		ฉันเพิ่งติดอยู่ในนี้...
 
 		[THEO right wtf]
-		Do you get the feeling that this place{n}knows you better than you know yourself?
+		คุณรู้สึกว่ารู้จักสถานที่แห่งนี้{n}ดีกว่าที่คุณรู้จักตัวเองไหม?
 		
 		[MADELINE left distracted]
-		Yeah...
-		I'm so embarrassed that you{n}have to see this side of me.
+		ใช่...
+		ฉันอายมากที่คุณ{n}ต้องเห็นด้านนี้ของฉัน
 
 		[MADELINE left upset]
-		I tried to stop you.
-		I hope that selfie was worth it.
+		ฉันพยายามที่จะหยุดคุณ
+		ฉันหวังว่าการเซลฟี่จะคุ้มค่า
 
 		[THEO right yolo]
-		Selfies are always worth it, dude.
+		การเซลฟี่นั้นคุ้มค่าเสมอ, เพื่อน
 
 		[MADELINE left distracted]
-		I shouldn't be mad, this isn't your fault.
+		ฉันไม่ควรโกรธ, นี่ไม่ใช่ความผิดของคุณ
 
 		[MADELINE left sad]
-		I'm glad you're safe, but{n}you're trapped because of me.
+		ฉันดีใจที่คุณปลอดภัย, แต่{n}คุณติดกับดักเพราะฉัน
 
 		{trigger 1 Madeline turns around}
 
 		[MADELINE left distracted flip]
-		And now this temple is showing{n}you what I'm really like.
-		I'm horrible...
+		และตอนนี้วิหารนี้กำลังแสดงให้คุณเห็นว่าฉันเป็นอะไร
+		ฉันแย่มาก...
 
 		{trigger 2 wait a bit}
 
 		[THEO right thinking]
-		Hey, we're in this together.
+		เฮ้, เราอยู่ในนี้ด้วยกัน
 
 		[THEO right wtf]
-		Don't act like this is all on you.
+		อย่าทำเหมือนว่าทั้งหมดนี้เป็นเรื่องของคุณคนเดียว
 
 		{trigger 3 Madeline turns back, zoom out, room gets brighter}
 
 		[MADELINE left sad]
-		What do you mean?
+		คุณหมายความว่าไง?
 
 		[THEO right wtf]
-		You didn't trap me in this crystal.
-		Sure, those monsters are coming from you,{n}but the temple is shaping itself around me too.
+		คุณไม่ได้พาฉันมาอยู่ในคริสตัลนี้
+		แน่นอนว่าสัตว์ประหลาดเหล่านั้นมาจากคุณ,{n}แต่วิหารก็กำลังก่อร่างขึ้นรอบตัวฉันด้วยเช่นกัน
 
 		[THEO right worried]
-		I can {*}feel{/*} it.
-		These {~}eyes{/~} are staring at me...
+		ฉัน {*}รู้สึก{/*} ได้
+		{~}ดวงตา{/~} คู่นี้จ้องมองมาที่ฉัน...
 
 		[THEO right wtf]
-		And this crystal is coming from me, I know it.
+		และคริสตัลนี้มาจากฉัน, ฉันรู้
 
 		[THEO right serious]
-		I hate to ask, but I really need your help right now.
+		ฉันไม่ชอบถาม, แต่ตอนนี้ฉันต้องการความช่วยเหลือจากคุณ
 
 		{trigger 0 zoom back in}
 
@@ -2428,1267 +2428,1267 @@
 		...
 		
 		[MADELINE left distracted]
-		Okay.
+		โอเค
 
 		[MADELINE left normal]
-		I've got your back.
-		I'll bust you out of that thing,{n}then we'll escape together.
+		ฉันเจอคุณแล้ว
+		ฉันจะเอาคุณออกจากสิ่งนั้น,{n}แล้วเราจะหนีไปด้วยกัน
 
 		[MADELINE left sad]
-		Just as soon as I find my way around to you...
+		ทันทีที่ฉันหาทางเข้าไปหาคุณได้...
 		
 		[THEO right serious]
-		{+MADELINE}, you're my only hope right now.
-		I believe in you, for real.
+		{+MADELINE}, คุณคือความหวังเดียวของฉัน
+		ฉันเชื่อในตัวคุณ
 
 		[MADELINE left distracted]
-		I hope that's not a mistake.
+		ฉันหวังว่ามันจะไม่ผิดพลาดนะ
 
 	CH5_SEE_THEO_B=
 		[MADELINE left distracted]
-		If the temple is showing me who I really am...
+		ถ้าวิหารกำลังแสดงว่าตัวฉันเป็นใคร...
 
 		[MADELINE left sad]
-		...then I deserve this, don't I?
+		...ถ้าอย่างนั้นฉันก็สมควรได้รับสิ่งนี้, ไม่ใช่เหรอ I?
 
 		[THEO right wtf]
-		{+ALEX}, you have to stop being so hard on yourself.
+		{+ALEX}, อย่ากดดันตัวเองนักเลย
 
 		[MADELINE left sad]
 		...
-		Who's {+ALEX}?
+		ใครคือ {+ALEX}?
 
 		[THEO right thinking]
-		Sorry, I meant {+MADELINE}.
+		ขอโทษ, ฉันหมายถึง {+MADELINE}.
 
 		[THEO right wtf]
-		But my comment still stands.
-		No one deserves this, least of all you.
+		แต่ฉันยังยืนยันคำเดิม
+		ไม่มีใครคงรได้รับสิ่งนี้, แม้แต่คุณ
 
 		[MADELINE left sad]
-		Yeah... you're right.
+		ใช่... คุณพูดถูก
 
 		[MADELINE left determinedclosed]
-		Okay, I can do this.
+		โอเค, ฉันทำได้
 
 	CH5_FOUND_THEO=
 		[MADELINE left normal]
-		{+theo}! I finally found you.
+		{+theo}! ในที่สุดฉันก็พบคุณ
 		
 		[THEO right excited]
-		I knew you'd make it!
+		ฉันรู้ว่าคุณจะทำได้!
 
 		[MADELINE left sad]
-		It wasn't easy...
+		มันไม่ง่ายเลย...
 
 		[MADELINE left distracted]
-		Are those monsters really coming from inside me?
+		สัตว์ประหลาดพวกนั้นมาจากข้างในตัวฉันจริงๆเหรอ?
 		
 		[THEO right thinking]
-		{+MADELINE}, that's a valid question.
-		I'll be happy to discuss how the{n}monsters relate to your inner self...
+		{+MADELINE}, ถามได้ดี
+		ฉันยินดีที่จะคุย{n}เรื่องสัตว์ประหลาดที่มาจากตัวตนของคุณ...
 
 		[THEO right wtf]
-		But right now, {~}my{/~} inner self is real{n}sick of being stuck in this crystal.
+		แต่ตอนนี้, {~}ตัวตนจากภายใน{/~} ของเธอมีจริง{n}ฉันถึงติดอยู่ในคริสตัลนี้
 		
 		[MADELINE left sad]
-		Oh, right.
+		โอ้, ใช่
 
 		[MADELINE left normal]
-		Don't worry, I'll break you out!
+		อย่ากังวล, ฉันจะนำคุณออกมา!
 
 		{trigger 0 Attempt to break the crystal, but it just falls to the ground}
 		
 		[THEO right thinking]
-		Well, this is a solid start, but...
+		เอาล่ะ, เริ่มต้นได้ดี, แต่...
 		
 		[THEO right wtf]
-		This crystal is, like, an expression of my{n}negative psychic energy... or whatever.
+		คริสตัลนี้, เป็นเหมือนการแสดง{n}พลังงานเชิงลบของฉัน... หรืออะไรก็ตาม
 
 		[MADELINE left sad]
-		Yeah, but how do we break it?
+		ใช่, แต่เราจะพังมันได้ไง?
 
 		[THEO right serious]
-		If I knew {~}why{/~} I trapped myself in{n}this thing, maybe I could bust out.
+		ถ้าฉันรู้ว่า {~}ว่าทำไม{/~} ฉันถึงมาติด{n}อยู่ในนี้, บางทีฉันอาจหาทางออกได้
 
 		[THEO right wtf]
-		But I don't.
+		แต่ฉันไม่รู้นี่สิ
 
 		[THEO right thinking]
-		And I don't think I can get to the bottom of it{n}while we're stuck in this nightmare dimension.
+		และฉันไม่คิดว่าฉันจะไปถึงข้างล่างได้{n}ในขณะที่เราติดอยู่ในฝันร้ายนี้
 		
 		[THEO right serious]
-		I hate to say it, but you might have to-
+		ฉันไม่อยากที่จะพูด แต่บางทีคุณอาจต้อง-
 		
 		[MADELINE left angry]
-		{+theo}, don't even think about that!
-		I am {*}not{/*} leaving you behind!
+		{+theo}, อย่าแม้แต่จะคิด!
+		ฉัน {*}จะไม่{/*} ทิ้งคุณไว้ข้างหลัง!
 		
 		[THEO right worried]
-		{~}Hell no{/~}, you better not leave me in this place!
+		{~}ไม่ใช่ ๆ{/~}, คุณไม่ควรทิ้งฉันไว้ที่นี่!
 
 		[THEO right thinking]
-		I was gonna say you might have to carry me.
+		ฉันแค่จะบอกว่า คุณอาจจะต้องแบกฉัน
 		
 		[MADELINE left sad]
-		Oh.
+		โอ้
 		
 		[MADELINE left normal]
-		Yeah, I can do that.
+		ใช่, เป็นความคิดที่ดี
 
 	CH5_THEO_SAVING_LIFT=
 		[THEO left thinking]
-		Dang girl, you can lift.
+		แม่สาวน้อย, ยกดี ๆ สิ
 
 	CH5_THEO_SAVING_A=
 		[THEO left excited]
-		{~}Alright{/~}, you got this!
+		{~}นั่นไง{/~}, คุณทำได้!
 
 	CH5_THEO_SAVING_NICE=
 		[THEO left thinking]
-		Crushing it! That door didn't stand a chance.
+		ไปใกล้ ๆ! ประตูอาจจะเปิด
 
 	CH5_THEO_SAVING_B=
 		[THEO left worried]
-		Uh oh... I hope you know how to deal with these things.
+		เอ่อ โอ้... ฉันหวังว่าคุณจะคุยกับมันรู้เรื่องนะ
 
 	CH5_THEO_SAVING_C=
 		[THEO left worried]
-		Another one!? Come on...
+		อีกแล้วเหรอ!? มาเหอะ...
 
 	CH5_THEO_SAVING_SWITCH=
 		[THEO left thinking]
-		{+theo} saves the day again.
+		{+theo} คุณทำให้สถานะการณ์ดีขึ้น
 
 	CH5_THEO_SAVING_DUNK=
 		[THEO left nailedit]
-		I'm helping.
+		ฉันก็ช่วยได้
 
 	CH5_THEO_SAVING_REALLY=
 		[THEO left thinking]
-		Now you're just showing off.
+		คุณกำลังจะสื่ออะไร?
 
 	CH5_THEO_SAVING_D=
 		[THEO left excited]
-		We have to be close, I can feel it.
+		เราใกล้ถึงแล้ว, ฉันรู้สึกได้
 
 	CH5_THEO_SAVING_E=
 		[THEO left worried]
-		Just a bit further. You can do this {+MADELINE}.
+		ไปอีกนิด คุณทำได้ {+MADELINE}.
 
 	CH5_BSIDE_THEO_A=
 		[THEO left excited]
-		It's the temple remix, featuring your boy {+MIXMASTER_THEO}!
+		นี่มันวิหารรีมิกซ์, ฟีเจอริ่งกับผู้ชายของคุณ {+MIXMASTER_THEO}!
 
 	CH5_BSIDE_THEO_B=
 		[THEO left wtf]
-		This isn't canon, is it?
+		นี่ไม่ใช่ปืนใหญ่, ใช่ไหม?
 
 	CH5_BSIDE_THEO_C=
 		[THEO left wtf]
-		Uhh, this one is clearly impossible.
+		เอ่อ, เป็นไปไม่ได้หรอกน่า
 
 # *** Chapter 06 ***
 
 	CH6_THEO_INTRO=
 		[MADELINE right normal]
-		{+theo}, you're awake!
+		{+theo}, คุณฟื้นแล้ว!
 
 		[THEO left thinking]
-		Am I? I'm skeptical...
+		ฉันเหรอ? ไม่จริงน่า...
 
 		[THEO left wtf]
-		I had a {~}messed up{/~} nightmare.
+		ฉัน {~}ฝันร้าย{/~} มันวุ่นวายมาก
 		
 		[MADELINE right distracted]
-		Yeah, about that...
+		ใช่, เกี่ยวกับเรื่องนั้น...
 
 		[THEO left wtf]
-		Wait...
+		เดี๋ยว...
 
 		[THEO left thinking]
-		Oh, yep, it's all coming back to me now.
+		โอ้, ใช่, ฉันนึกออกแล้ว
 
 		[THEO left wtf]
-		That actually happened.
+		มันไม่ใช่ฝัน
 
 		[THEO left serious]
-		Thanks for getting us out of there.
+		ขอบคุณที่พาเราออกมาจากที่นั่น
 
 		[MADELINE right distracted]
-		I'm glad we were in it together.
+		ฉันดีใจที่เรายังอยู่ด้วยกัน
 
 		[MADELINE right sad]
-		I don't know if I could've done that alone.
+		ฉันไม่รู้ว่า ถ้าฉันอยู่คนเดียวจะเป็นยังไง
 
 	CH6_THEO_ASK_OUTFOR=
 		[THEO left thinking]
-		How long was I out for?
+		มันผ่านมานานแค่ไหน?
 	CH6_THEO_SAY_OUTFOR=
 		[THEO left thinking]
-		How long was I out for?
+		มันผ่านมานานแค่ไหน?
 
 		[MADELINE right sad]
-		It must've been a few hours...
+		มันใช้เวลาไม่กี่ชั่วโมง
 
 		[THEO left serious]
-		Man, what a ride.
+		เพื่อน, เป็นไปได้ไง
 
 		[MADELINE right upset]
-		Tell me about it.
+		บอกฉันเกี่ยวกับมัน
 
 		[MADELINE right sad]
-		Are you okay?
+		คุณสบายดีไหม?
 
 		[THEO left thinking]
-		I mean, aside from the existential crisis?
+		ฉันหมายถึง, นอกเหนือจากวิกฤติทางอารมณ์?
 
 		[THEO left wtf]
-		Yeah, I'm fine.
+		ใช่, ฉันสบายดี
 
 	CH6_THEO_ASK_EXPLAIN=
 		[THEO left wtf]
-		What's really going on here?
+		เกิดอะไรขึ้นที่นี่?
 	CH6_THEO_SAY_EXPLAIN=
 		[THEO left wtf]
-		Clearly this isn't a normal {+MOUNTAIN}.
-		What's really going on here?
+		เห็นได้ชัดว่านี่ไม่ใช่ {+MOUNTAIN} ที่รู้จัก
+		เกิดอะไรขึ้นที่นี่?
 
 		[MADELINE right sad]
-		I should've told you sooner.
+		ฉันควรจะบอกคุณเร็วกว่านี้
 
 		[MADELINE right distracted]
-		Back at the old ruins, a...{n}{+PART_OF_ME} escaped from a mirror.
-		A part I'm not very proud of.
+		ย้อนกลับไปที่ซากปรักหักพังเก่า, ...{n}{+PART_OF_ME} หนีออกมาจากกระจก
+		ส่วนหนึ่งที่ฉันไม่ได้ภูมิใจมากนัก
 
 		[MADELINE right upset]
-		I swear I dreamt it.
+		ฉันสาบาน ฉันคิดว่าฝันไป
 
 		[THEO left serious]
-		You think the {+MOUNTAIN} made her real?
+		เธอคิดว่า {+MOUNTAIN} ทำให้เธอในกระจกมีตัวตน?
 
 		[MADELINE right distracted]
-		Yeah.
-		She's been haunting me the whole time.
+		ใช่
+		เธอตามหลอกหลอนฉันตลอดเวลา
 
 		[MADELINE right sad]
-		She lashed out at {+MROSHIRO}.
+		เธอยุแยง {+MROSHIRO}.
 
 		[MADELINE right distracted]
-		I think she was the reason the gondola stalled out.
+		ฉันคิดว่าเธอเป็นสาเหตุที่ทำให้กระเช้าไฟฟ้าหยุดชะงัก
 
 		[MADELINE right sad]
-		And she was there, in the temple.
+		และเธอก็อยู่ที่นั่น, ในวิหาร
 
 		[THEO left worried]
 		...
-		Why didn't you say something?
-		I wouldn't have gone into that temple{n}if I knew what this {+MOUNTAIN} was capable of...
+		ทำไมคุณไม่บอกอะไรบ้าง?
+		ฉันคงไม่เข้าไปในวิหารนั้น{n}ถ้าฉันรู้ว่า {+MOUNTAIN} นี้มีความสามารถอะไร...
 
 		[MADELINE right upset]		
-		I tried to stop you.	
+		ฉันพยายามที่จะห้ามคุณแล้ว
 		
 		[THEO left wtf]
-		You could have mentioned that your{n}{+ST_BAD}demon doppelgänger{+END_BAD} was on the loose.
+		หรือคุณกำลังจะบอกว่า{n}{+ST_BAD}ด็อพเพิลเก็งเงอร์{+END_BAD} ของคุณหลุดออกมา
 			
 		[MADELINE right upset]
-		Come on, {+THEO}.
-		You know how crazy this sounds.
+		ไม่เอาน่า, {+THEO}.
+		คุณรู้ว่ามันฟังดูบ้าแค่ไหน
 
 		[MADELINE right distracted]
-		I didn't even believe myself.
+		ฉันไม่เชื่อตัวเองด้วยซ้ำ
 
 		[THEO left wtf]
-		Okay, okay.
-		I understand.
+		โอเค, โอเค
+		ฉันเข้าใจ
 
 		[THEO left thinking]
-		Next time just {0.3}talk to me, though.
-		I promise I'll believe you.
+		ก็แค่ {0.3}บอกกับฉันก่อน
+		ฉันสัญญาว่าฉันจะเชื่อคุณ
 
 		[MADELINE right distracted]
-		Okay.
+		โอเค
 
 	CH6_THEO_ASK_THANKYOU=
 		[MADELINE right distracted]
-		Thank you, for believing in me back there.
+		ขอบคุณที่เชื่อในตัวฉัน
 	CH6_THEO_SAY_THANKYOU=
 		[MADELINE right distracted]
-		Thank you, {+THEO}.
-		...for believing in me back there, I mean.
+		ขอบคุณ, {+THEO}.
+		...ที่เชื่อในตัวฉัน, ฉันหมายความแบบนั้นจริง ๆ
 
 		[THEO left wtf]
-		Believing in you was the easy part.
+		การเชื่อในตัวคุณเป็นเรื่องง่าย
 
 		[THEO left thinking]
-		I wish I could've helped.
+		ฉันหวังว่าฉันจะช่วยอะไรได้บ้าง
 
 		[THEO left wtf]
-		I was pretty useless, stuck in that thing.
+		ฉันค่อนข้างไร้ประโยชน์ติดอยู่ในนั้น
 
 		[MADELINE right sad]
-		You actually helped a lot.
+		คุณช่วยได้เยอะมาก
 
 		[MADELINE right distracted]
-		Honestly, I couldn't have made it without your support.
+		เอาจริงนะ, ฉันทำอะไรไม่ได้เลย ถ้าไม่ได้คุณช่วย
 
 	CH6_THEO_ASK_TRUST=
 		[MADELINE right distracted] 
-		Why is it so easy for you to trust me?
+		ทำไมคุณถึงเชื่อใจฉันได้ง่ายขนาดนี้?
 	CH6_THEO_SAY_TRUST=
 		[MADELINE right distracted] 
-		Why is it so easy for you to trust me?
+		ทำไมคุณถึงเชื่อใจฉันได้ง่ายขนาดนี้?
 
 		[MADELINE right sad]
-		Seriously, you barely know me.
+		เอาจริง, คุณแทบไม่รู้จักฉันเลย
 
 		[THEO left normal]
-		Honestly?
-		You remind me of my sister.
+		เอาจริงนะ?
+		คุณทำให้ฉันนึกถึงน้องสาวของฉัน
 
 		[MADELINE right normal]
-		That's adorable. 
-		What's she like?
+		น่ารักจัง
+		เธอชอบอะไร
 
 		[THEO left excited]
-		Oh, you'd love her!
+		โอ้, คุณจะรักเธอ!
 
 		[THEO left wtf]
-		Actually, you might not get along at first...
+		อันที่จริง, คุณอาจจะไม่เข้ากันในตอนแรก...
 
 		[THEO left thinking]
-		But you'd eventually love her.
+		แต่ในที่สุดคุณก็จะรักเธอ
 
 		[THEO left excited]
-		She's a {~}literal{/~} rockstar.
+		เธอเป็น {~}ร็อคสตาร์{/~} ตัวจริง
 
 		[MADELINE right normal]
-		She's a musician?
-		That's so cool!
+		เธอเป็นนักดนตรี?
+		เจ๋งไปเลย!
 
 		[THEO left thinking]
-		Okay, she's not {~}literally{/~} a literal rockstar.
+		โอเค, เธอไม่ใช่ {~}ร็อคสตาร์{/~} ที่แท้จริง
 
 		[THEO left normal]
-		{+ALEX} is just... amazing at everything.
-		She's studying to be a civil rights lawyer.
+		{+ALEX} ก็แค่... น่าทึ่งในทุกสิ่ง
+		เธอกำลังเรียน เพื่อเป็นทนายความด้านสิทธิพลเมือง
 
 		[MADELINE right normal]
-		Wow!
+		ว้าว!
 
 		[MADELINE right distracted]
-		How do I remind you of her?
+		คิดถึงเธอเหรอ?
 
 		[THEO left wtf]
-		You both live so deep inside your own heads.
+		คุณทั้งสองอยู่ลึก ๆ ในหัวของฉัน
 
 		[MADELINE right distracted]
-		Oh...
+		โอ้...
 
 		[THEO left thinking]
-		{+ALEX} has this amazing internal compass.
+		{+ALEX} มีเข็มทิศภายในที่น่าทึ่ง
 
 		[THEO left normal]
-		It's obvious that she'll get where she needs to be.
-		I can see that in you too.
+		เห็นได้ชัดว่าเธอจะไปถึงที่ที่เธอต้องการ
+		ฉันเห็นสิ่งนั้นในตัวคุณเช่นกัน
 
 		[THEO left wtf]
-		I wish I could say the same for myself.
+		ฉันหวังว่าฉันจะพูดแบบเดียวกันกับตัวเอง
 		
 	CH6_THEO_ASK_WHY=
 		[MADELINE right distracted]
-		Your sister sounds great. I really remind you of her?
+		น้องสาวของคุณสุดยอดมาก คุณคงคิดถึงเธอมากจริงๆ?
 	CH6_THEO_SAY_WHY=
 		[MADELINE right distracted]
-		Your sister sounds great. I really remind you of her?
+		น้องสาวของคุณสุดยอดมาก คุณคงคิดถึงเธอมากจริงๆ?
 
 		[THEO left thinking]
-		Are you kidding me?
+		คุณล้อฉันเล่นเหรอ?
 
 		[THEO left excited]
-		You're the one who's {~}dead set{/~}{n}on climbing this {+MOUNTAIN}.
+		คุณคือคนที่ {~}ตายไปแล้ว{/~}{n}ในการปีน {+MOUNTAIN} นี้
 
 		[THEO left thinking]
-		And you {~}{>> .3}don't even know why.{>>}{/~}
+		และคุณ {~}{>> .3}ไม่รู้ว่าทำไม{>>}{/~}
 
 		[THEO left excited]
-		That's classic {+ALEX}.
+		มันคลาสสิก {+ALEX}.
 
 		[MADELINE right distracted]
 		...
 
 		[THEO left thinking]
-		I'm just teasing you.
+		ฉันแค่แกล้งคุณ
 
 		[THEO left normal]
-		Why {~}are{/~} you climbing the {+MOUNTAIN}, anyways?
+		ทำไม {~}คุณ{/~} คุณถึงปีน {+MOUNTAIN}, ล่ะ?
 
 		[MADELINE right distracted]
-		You're right, I don't even know why.
+		คุณพูดถูก, ฉันไม่รู้ด้วยซ้ำว่าทำไม
 
 		[MADELINE right sad]
-		I just{0.4} had to get out of my {*}head.{/*}
-		I'm stuck in a cycle.
+		ฉันแค่{0.4} ต้องการเคลียร์ {*}หัว{/*} ของฉัน
+		ฉันติดอยู่ในวงจรเดิม ๆ
 
 		[THEO left normal]
-		You're preaching to the choir here.
-		I've had many a soul-destroying day job.
+		ฉันรู้ว่าฉันพูดชักจูงเธอนะ
+		ฉันมีงานทำลายจิตวิญญาณมาหลายวันแล้ว
 
 		[MADELINE right sad]
-		Work is fine actually, I just...
+		งานไม่มีปัญหา, ฉันแค่...
 
 		[MADELINE right distracted]
 		...
 
 		[MADELINE right upset]
-		I'm going crazy.
-		I can't stop thinking about{n}dumb crap that doesn't matter.
+		ฉันอยากจะบ้า
+		ฉันหยุดคิดเกี่ยวกับ{n}เรื่องโง่ ๆ ที่ไม่สำคัญตลอด
 
 		[MADELINE right sad]
-		My brain fixates on these stupid {.4}{>> .3}{*}things{/*}{>>}{.4}{n}that happened forever ago.
+		สมองของฉันจดจ่ออยู่กับ {.4}{>> .3}{*}เรื่องโง่ ๆ{/*}{>>}{.4}{n}ที่เกิดขึ้นเมื่อนานมาแล้ว
 
 		[MADELINE right angry]
-		I should be {*}over them.{/*} 
-		{*}None of it even matters.{/*}
+		ฉันควรจะ {*}อยู่เหนือพวกเขา{/*} 
+		{*}ไม่มีอะไรสำคัญเลยแม้แต่น้อย{/*}
 
 		{trigger 0 Wait a bit}
 
 		[MADELINE right distracted]
 		...
-		I'm good at keeping up appearances, but{n}the truth is I'm barely holding it together.
+		ฉันเก่งในเรื่องการเก็บอาการ, แต่{n}ความจริงก็คือ ฉันแทบจะไม่ได้เก็บอาการเลย
 
 		[THEO left worried]
-		I'm sorry, that's pretty rough stuff.
-		Can I help?
+		ฉันขอโทษ, นั่นเป็นเรื่องที่ค่อนข้างหยาบคาย
+		มีอะไรให้ฉันช่วยไหม?
 
 		[MADELINE right sad]
-		You're already helping.
-		It feels good to say it out loud.
+		คุณช่วยฉันอยู่แล้ว
+		ฉันรู้สึกดี ที่ได้พูดออกไปดัง ๆ
 
 		[THEO left wtf]
-		You don't talk to anyone about it?
+		คุณไม่ได้พูดคุยกับใครเกี่ยวกับเรื่องนี้เหรอ?
 
 		[MADELINE right distracted]
-		No... not really.
+		ไม่... ไม่มีเลย
 
 		[MADELINE right sad]
-		My mom knows I get depressed,{n}and have panic attacks.
+		แม่รู้ว่าฉันเป็นโรคซึมเศร้า,{n}และมีอาการตื่นตระหนก
 
 		[MADELINE right distracted]
-		That's about it.
+		นั่นแหละ
 
 		[THEO left thinking]
-		No wonder you feel trapped.
+		ไม่น่าแปลกใจที่คุณรู้สึกติดอยู่ในกับดัก
 		
 		[THEO left wtf]
-		How do you cope with... anything?
+		คุณรับมือกับเรื่องทั้งหมด... ได้ยังไง?
 
 		[MADELINE right upset]
-		I drink, mostly.
-		And get mad at people on the internet.
+		ฉันดื่ม, ส่วนมากนะ
+		และอารมเสียใส่คนอื่นในโลกโซเชียล
 
 	CH6_THEO_ASK_DEPRESSION=
 		[THEO left serious]
-		Would you mind talking about what depression is like?
+		คุณช่วยพูดเกี่ยวกับภาวะซึมเศร้าได้ไหม?
 	CH6_THEO_SAY_DEPRESSION=
 		[THEO left serious]
-		Would you mind talking about what depression is like?
+		คุณช่วยพูดเกี่ยวกับภาวะซึมเศร้าได้ไหม?
 
 		[MADELINE right distracted]
 		...
 
 		[MADELINE right upset]
-		It sucks.
+		มันแย่
 
 		[THEO left wtf]
-		Yeah, but what does it {~}feel like?{/~}
+		ใช่, แต่มัน {~}รู้สึกอย่างไร?{/~}
 
 		[THEO left serious]
-		{+ALEX} struggles with it too.{n}I really want to understand.
+		{+ALEX}ก็ต้องดิ้นรนเช่นกัน{n}ฉันอยากเข้าใจจริง ๆ
 
 		[THEO left normal]
-		We can talk about something else if you want.
+		เราสามารถพูดคุยเกี่ยวกับอย่างอื่นได้นะ ถ้าคุณต้องการ
 
 		[MADELINE right distracted]
 		...
-		It's like...
+		มันเหมือนกับ...
 
 		[MADELINE right sad]
-		I'm at the bottom of the ocean.
-		I can't see anything in any direction.
+		ฉันอยู่ก้นทะเล
+		มันมองไม่เห็นทิศทางใดเลย
 
 		[MADELINE right distracted]
-		It's claustrophobic, yet I feel exposed.
+		มันอึดอัด, แต่ฉันก็รู้สึกโล่ง
 		...
 
 		{trigger 0 Wait a bit}
 
 		[MADELINE right sad]
-		I remember feeling normal.
-		But now it feels just out of{n}reach, no matter what I try.
+		ฉันจำได้ว่ารู้สึกปกติ
+		แต่บางทีก็รู้สึกว่าอยู่ไกล{n}ไม่ว่าฉันจะพยายามแค่ไหน
 		
 		[MADELINE right distracted]
-		Then again, I was probably always messed up.
-		It just took something hurtful to bring it out.
+		จากนั้น, ฉันรู้สึกยุ่งอยู่ตลอดเวลา
+		มันต้องใช้อะไรบางอย่างรู้สึกอันตรายในการนำมันออกมา
 
 		[MADELINE right upset]
-		There must be something wrong with me.
+		ต้องมีบางอย่างผิดปกติกับฉัน
 
 		[THEO left serious]
-		Whatever happened, I'm sure it's not your fault.
+		ไม่ว่าจะเกิดอะไรขึ้น, ฉันมั่นใจว่าไม่ใช่ความผิดของคุณ
 
 		{trigger 0 Wait a bit}
 
 		[MADELINE right sad]
-		I guess I thought that I could...
+		ฉันคิดว่าฉันคิดว่าฉันทำได้...
 
 		[MADELINE right distracted]
-		I don't know.
-		I'm just floating in this abyss,{n}swimming in a random direction.
+		ฉันไม่รู้
+		ฉันกำลังลอยอยู่ในเหวนี้,{n}แหวกว่ายไปในทิศทางที่ไม่แน่นอน
 
 		[MADELINE right sad]
-		Hoping that I find {*}something.{/*}
+		หวังว่าฉันจะพบ {*}อะไรบางอย่าง{/*}
 
 		[MADELINE right distracted]
-		That's really why I'm here.
+		นั่นเป็นเหตุผลว่าทำไมฉันถึงมาที่นี่
 		...
-		But I can't escape myself.
+		แต่ฉันไม่สามารถหนีตัวเองได้
 
 		[MADELINE right upset]
-		I'm literally {*}fighting myself{/*} the entire way.
+		ฉันกำลัง  {*}ต่อสู้กับตัวเอง{/*} อย่างแท้จริง
 
 		[MADELINE right distracted]
-		Maybe this is all pointless.
+		บางที นี่อาจจะไม่ใช่จุดหมายทั้งหมด
 
 		{trigger 0 Wait a bit}
 
 		[THEO left serious]
-		{+MADELINE}, you {~}just{/~} saved my life.
+		{+MADELINE}, คุณ {~}เพิ่ง{/~} ช่วยชีวิตฉันไว้
 
 		[THEO left wtf]
-		That's not pointless.
+		นั่นไม่ใช่เรื่องไร้จุดหมาย
 
 		[MADELINE right distracted]
-		Yeah...
+		ใช่...
 
 		{trigger 0 Wait a bit}
 
 		[THEO left wtf]
-		Look, you're a good person.
+		ดูสิ, คุณเป็นคนดี
 
 		[THEO left thinking]
-		You're a little intense, but you're a {~}good person.{/~}
+		คุณเป็นคนดื้อ แต่คุณเป็น {~}คนดี{/~}
 
 		[THEO left wtf]
-		I think you're just trying to push{n}out of that rut you're stuck in.
+		ฉันคิดว่าคุณแค่พยายามผลัก{n}ตัวเองออกจากที่ที่ติดอยู่
 
 		[THEO left excited]
-		And that's a totally legit reason to climb the {+MOUNTAIN}!
+		และนั่นเป็นเหตุผลที่ถูกต้อง ในการปีนขึ้นไปบน {+MOUNTAIN}!
 
 		[MADELINE right distracted]
-		Maybe.
+		อาจจะ
 
 		[MADELINE right sad]
-		That's... helpful.
+		มัน... ช่วยได้
 
 		{trigger 0 Wait a bit}
 
 		[THEO left normal]
-		This {+PART_OF_YOU} that's haunting you,{n}maybe she comes with the territory.
+		{+PART_OF_YOU} ที่มันหลอกหลอนคุณ,{n}บางทีเธออาจมาพร้อมกับอาณาเขต
 
 		[MADELINE right upset]
-		So you think I'm stuck with her forever?
+		คุณคิดว่าฉันจะติดอยู่กับเธอตลอดไปเหรอ?
 
 		[THEO left normal]
-		Well, she's stuck with you, too.
+		ก็นะ, เธอก็ติดอยู่กับคุณด้วยเช่นกัน ;)
 
 		[MADELINE right upset]
-		That's {*}not{/*} helpful.
+		นั่น {*}ไม่ช่วย{/*} อะไรเลย
 
 	CH6_THEO_ASK_DEFENSE=
 		[THEO left wtf]
-		So you want to destroy this {+PART_OF_YOU}?
+		คุณต้องการทำลาย {+PART_OF_YOU} ไหม?
 	CH6_THEO_SAY_DEFENSE=
 		[THEO left wtf]
-		So you want to destroy this {+PART_OF_YOU}?
-		Won't that hurt you, too?
+		คุณต้องการทำลาย {+PART_OF_YOU} ไหม?
+		มันจะไม่ทำร้ายเธอด้วยเหรอ?
 
 		[MADELINE right sad]
-		If I don't she's just going to keep bullying me.
+		ถ้าฉันไม่ทำ เธอก็จะคอยกลั่นแกล้งฉัน
 
 		[MADELINE right upset]
-		She says she's protecting me,{n}but that's obviously not true.
+		เธอบอกว่าเธอปกป้องฉัน,{n}แต่เห็นได้ชัดว่าไม่เป็นความจริง
 
 		[THEO left normal]
-		Maybe she thinks she is.
-		She could be some kind of...{n}twisted defense mechanism.
+		บางทีเธออาจจะคิดว่าเธอเป็น
+		เธออาจเป็น...{n}กลไกป้องกันที่บิดเบี้ยว
 		
 		[MADELINE right upset]
-		Honestly, who cares?
-		She has so much control over me.
-		I hate it.
+		เอาจริงนะ, ใครสนกันล่่ะ?
+		เธอมีอำนาจในการควบคุมมากกว่าฉัน
+		ฉันเกลียดมัน
 
 		[THEO left wtf]
-		Maybe you can learn to control her instead.
+		บางทีคุณอาจเรียนรู้ที่จะควบคุมเธอแทน
 
 		[MADELINE right distracted]
-		The feather helps a lot.
+		ขนนกช่วยได้มาก
 
 		[MADELINE right sad]
-		Thanks for teaching me that.
+		ขอบคุณที่สอนฉันเรื่องนั้น
 
 		[THEO left thinking]
-		Just one of my grandpa's many nuggets of wisdom.
+		มันเป็นแค่หนึ่งในภูมิปัญญาของปู่ของฉัน
 
 	CH6_THEO_ASK_VACATION=
 		[THEO left thinking]
-		Why not take a vacation instead?
+		ทำไมไม่ลาพักร้อนแทนล่ะ?
 	CH6_THEO_SAY_VACATION=
 		[THEO left thinking]
-		Why not take a vacation instead?
+		ทำไมไม่ลาพักร้อนแทนล่ะ?
 
 		[MADELINE right sad]
-		What do you mean?
+		คุณหมายถึงอะไร?
 
 		[THEO left normal]
-		Dude, you needed a change{n}so you chose to {>> .2}climb a {+MOUNTAIN}{>>}...
+		เพื่อน, คุณต้องการการเปลี่ยนแปลง{n}ดังนั้นคุณจึงเลือกที่จะ {>> .2}ปีนชึ้นมาบน {+MOUNTAIN}{>>}...
 
 		[THEO left thinking]
-		Why not do something relaxing instead?
+		ทำไมไม่ทำอะไรที่ผ่อนคลายแทนล่ะ?
 
 		[THEO left wtf]
-		Go to Hawaii, or like, {0.3}take a bath.
+		ไปฮาวาย, หรือแบบ, {0.3}อาบน้ำ
 
 		[MADELINE right sad]
 		...
-		I guess I feel like I need to accomplish something.
+		ฉันคิดว่า ฉันรู้สึกว่าฉันต้องทำอะไรบางอย่างให้สำเร็จ
 
 		[THEO left wtf]
-		It sounds like you have{n}enough on your plate already.
+		ดูเหมือนว่าคุณมี{n}ถ้วยรางวัลมากพอแล้ว
 
 		[MADELINE right distracted]
-		I guess it is kind of extreme.
-		But that's how I am.
-		I need something to challenge me.
+		ฉันคิดว่ามันเป็นอะไรที่สุดโต่ง
+		แต่นั่นคือสิ่งที่ฉันเป็น
+		ฉันต้องการบางอย่างที่จะท้าทายฉัน
 
 		[MADELINE right sad]
-		And I can't just do something a little bit.
-		It's all of me, or nothing.
+		และฉันไม่สามารถทำอะไรได้
+		ทั้งหมดเป็นของฉัน, หรือไม่มีอะไรเลย
 
 	CH6_THEO_ASK_FAMILY=
 		[MADELINE right normal]
-		What brought you to the {+MOUNTAIN}?
+		อะไรทำให้คุณมาที่ {+MOUNTAIN}?
 	CH6_THEO_SAY_FAMILY=
 		[MADELINE right normal]
-		How about you?
-		What brought you to the {+MOUNTAIN}?
+		แล้วคุณล่ะ?
+		อะไรทำให้คุณมาที่ {+MOUNTAIN}?
 
 		[THEO left normal]
-		I'm just kind of bumming around.
+		ฉันเป็นแค่คนโง่ ๆ
 		
 		[THEO left thinking]
-		As usual.
+		เหมือนอย่างเคย
 
 		[THEO left normal]
-		I started this new job in Seattle.
-		I thought I {~}finally{/~} knew what I was{n}supposed to be doing with my life...
+		ฉันเริ่มงานใหม่นี้ในซีแอตเทิล
+		ฉันคิดว่าฉัน {~}ในที่สุด{/~} ก็รู้ว่าฉัน{n}ควรจะทำอะไรกับชีวิตของฉัน...
 
 		[THEO left wtf]
-		But I hated it.
+		แต่ฉันเกลียดมัน
 
 		[THEO left thinking]
-		So I quit after a week and hopped a bus to Canada.
+		ดังนั้นฉันจึงออกจากงานหลังจากนั้นหนึ่งสัปดาห์ และกระโดดขึ้นรถบัสไปแคนาดา
 
 		[THEO left wtf]
-		I just felt this urge to...{n}get lost in the middle of nowhere.
+		ฉันแค่รู้สึก...{n}หลงทางอยู่ที่ไหนสักแห่ง
 		...
-		Now that I'm saying it out loud,{n}I realize how flakey it sounds.
+		ตอนนี้ฉันกำลังพูดออกมาดัง ๆ{n}ฉันรู้แล้วว่ามันฟังดูแย่แค่ไหน
 
 		[MADELINE right sad]
-		It just sounds like you're under a lot of pressure.
+		ดูเหมือนว่าคุณอยู่ภายใต้ความกดดันมากมาย
 
 		[THEO left thinking]
-		Not really.
-		Everyone is so patient with me.
+		ไม่จริง
+		ทุกคนอดทนกับฉันมาก
 
 		[THEO left serious]
-		Though I guess I am putting a{n}lot of pressure on {~}myself.{/~}
+		ฉันคิดว่าฉันกำลัง{n}{~}กดดัน{/~} ตัวเองอยู่
 
 		[THEO left wtf]
-		People always think I'm comparing myself to{n}{+ALEX}, but I {~}swear{/~} that isn't the problem.
-		I'm just worried that I'll never{n}figure out where I'm going.
+		คนอื่นมักคิดว่าฉันกำลังเปรียบเทียบตัวเองกับ{n}{+ALEX}, แต่ฉัน {~}สาบาน{/~} ว่ามันไม่ใช่
+		ฉันแค่กังวลว่าฉัน{n}ไม่รู้จะไปที่ไหน
 		
 		[MADELINE right distracted]
-		You said you wanted to feel lost...
+		คุณบอกว่าคุณรู้สึกหลงทาง...
 
 		[MADELINE right normal]		
-		Maybe you should just embrace that for now.
+		บางทีคุณควรจะยอมรับมันในตอนนี้
 
 		[THEO left serious]
-		Maybe.
+		อาจจะ
 
 	CH6_THEO_ASK_GRANDPA=
 		[MADELINE right normal]
-		Are you close to your grandpa?
+		คุณเคยอยู่ใกล้ชิดคุณปู่ของคุณไหม?
 	CH6_THEO_SAY_GRANDPA=
 		[MADELINE right normal]
-		Are you close to your grandpa?
+		คุณเคยอยู่ใกล้ชิดคุณปู่ของคุณไหม?
 
 		[THEO left serious]
-		Yeah... I was.
+		ใช่... ฉันเคย
 
 		[MADELINE right distracted]
-		Oh... I'm sorry.
+		โอ้... ฉันขอโทษ
 
 		[THEO left serious]
-		It's okay. That's just how it is.
+		ไม่เป็นไร นั่นเป็นเพียงเรื่องอดีต
 
 		[MADELINE right distracted]
 		...
 
 		[THEO left wtf]
-		All I can do is stay positive.
+		ทั้งหมดที่ฉันทำได้คือคิดบวก
 
 		[THEO left serious]
-		And live a meaningful life,{n}because that's what he would want.
+	และใช้ชีวิตอย่างมีความหมาย,{n}เพราะนั่นคือสิ่งที่เขาต้องการ
 
 		{trigger 0 Wait a bit}
 
 		[MADELINE right sad]
-		I'm so sorry, {+THEO}.
+		ฉันเสียใจด้วย, {+THEO}.
 
 		[THEO left serious]
-		Thanks.
+		ขอบคุณ
 
 	CH6_THEO_ASK_TIPS=
 		[MADELINE right normal]
-		What else did you learn from your grandpa?
+		คุณได้เรียนรู้อะไรจากคุณปู่ของคุณอีกบ้าง?
 	CH6_THEO_SAY_TIPS=
 		[MADELINE right normal]
-		What else did you learn from your grandpa?
+		คุณได้เรียนรู้อะไรจากคุณปู่ของคุณอีกบ้าง?
 
 		[THEO left excited]
-		So much stuff!
+		เยอะมากเลย!
 
 		[THEO left normal]
-		Actually, he was the one who{n}told me about {+CELESTE_MOUNTAIN}.
-		He always said that this place changed his life.
+		อันที่จริง เขาเป็นคน{n}บอกฉันเกี่ยวกับ {+CELESTE_MOUNTAIN}.
+		เขาพูดเสมอว่าสถานที่แห่งนี้เปลี่ยนชีวิตของเขา
 
 		[THEO left thinking]
-		After I quit my job in Seattle,{n}I realized how close I was to it.
-		I felt like he was telling me to come here.
+		หลังจากที่ฉันออกจากงานในซีแอตเทิล,{n}ฉันตระหนักได้ว่าฉันอยู่ใกล้มันมากแค่ไหน
+		ฉันรู้สึกเหมือนเขากำลังบอกให้ฉันมาที่นี่
 
 		[THEO left wtf]
-		Grandpa said that the {+MOUNTAIN} was {~}"special."{/~}
+		คุณปู่บอกว่า {+MOUNTAIN} มัน {~}"พิเศษ."{/~}
 
 		[MADELINE right sad]
-		Do you think he went through the temple like us?
+		คิดว่าเขาเดินผ่านวิหารเหมือนเรามั้ย?
 
 		[MADELINE right normal]
-		Do you think he understood{n}the power of the {+MOUNTAIN}?
+		คุณคิดว่าเขาเข้าใจ{n}พลังของ {+MOUNTAIN} ไหม?
 		
 		[THEO left thinking]
-		He never talked about what happened here.
+		เขาไม่เคยพูดถึงสิ่งที่เกิดขึ้นที่นี่
 
 		[MADELINE right distracted]
-		I doubt your grandpa was as messed up as me...
+		สงสัยคุณปู่ของคุณคงยุ่งเหมือนฉัน...
 
 		[MADELINE right sad]
-		His experience was probably less... violent.
+		ประสบการณ์ของเขาอาจจะน้อย...
 
 		[THEO left wtf]
-		He found the {+MOUNTAIN} before I was born.
-		I don't know what he was like before that.
+		เขาพบ {+MOUNTAIN} ก่อนที่ฉันจะเกิด
+		ฉันไม่รู้ว่าก่อนหน้านั้นเขาเป็นยังไง
 
 		[THEO left serious]
-		I wonder what he learned about himself here...
+		ฉันสงสัยว่าเขาเรียนรู้อะไรเกี่ยวกับตัวเองที่นี่...
 
 	CH6_THEO_ASK_TEMPLE=
 		[THEO left wtf]
-		Who do you think built the temple?
+		คุณคิดว่าใครสร้างวิหาร?
 	CH6_THEO_SAY_TEMPLE=
 		[THEO left wtf]
-		Who do you think built the temple?
+		คุณคิดว่าใครสร้างวิหาร?
 
 		[MADELINE right sad]
-		It looks ancient...
-		It must predate everything else on the {+MOUNTAIN}.{n}The resort, the ruins, the city...
+		มันดูโบราณ...
+		มันต้องเกิดขึ้นก่อน {+MOUNTAIN}.{n}รีสอร์ท, ซากปรักหักพังและเมือง...
 
 		[THEO left serious]
-		There's a lot of history here.
+		มีประวัติศาสตร์มากมายที่นี่
 
 		[MADELINE right distracted]
-		Yeah. 
-		This {+MOUNTAIN} has meant so{n}many things to so many people.
+		ใช่ 
+		{+MOUNTAIN} นี้มีความหมาย{n}หลาย ๆ อย่างสำหรับคนจำนวนมาก
 
 		[MADELINE right normal]
-		I'm starting to understand why{n}that crazy old lady lives here.
+		ฉันเริ่มเข้าใจว่าทำไม{n}คุณยายจึงอาศัยอยู่ที่นี่
 
 		[THEO left excited]
-		You ran into her too?
+		คุณเจอเธอด้วยเหรอ?
 
 		[THEO left thinking]
-		What's her deal?
+		คุณตกลงอะไรกับเธอ?
 
 		[MADELINE right upset]
-		I think she's just a mean person.
+		ฉันคิดว่าเธอเป็นคนใจร้าย
 
 		[MADELINE right distracted]
-		...but she does seem pretty content living out here.
+		...แต่เธอดูค่อนข้างพอใจที่อาศัยอยู่ที่นี่
 
 	CH6_THEO_ASK_SELFIE=
 		[MADELINE right normal]
-		I want to remember this night...
+		ฉันอยากจะจดจำคืนนี้...
 	CH6_THEO_SAY_SELFIE=
 		[MADELINE right normal]
-		You know what?
-		I want to remember this night...
-		Let's take a selfie!
+		คุณรู้อะไรไหม?
+		ฉันอยากจะจดจำคืนนี้...
+		มาเซลฟี่กันเถอะ!
 
 		[THEO left normal]
-		I thought you'd never ask.
+		คุณไม่เคยถามก่อนเลยใช่ไหม
 
 		{trigger 1 selfie sequence}
 
 		[MADELINE right normal]
-		Y'know despite everything,{n}I feel pretty good right now.
+		คุณรู้ทุกอย่างแล้ว,{n}ตอนนี้ฉันรู้สึกดีมาก
 
 		[THEO left wtf]
-		Wait a second...
+		เดี๋ยวนะ...
 
 		[THEO left excited]
-		You're going to reach the summit tomorrow!
+		คุณจะไปถึงยอดเขาพรุ่งนี้!
 
 		[MADELINE right upset]
-		Don't jinx it.
+		อย่าขัดสิ
 
 		[MADELINE right distracted]
-		...yeah, I'm excited.
+		...อ่า, ฉันแค่ตื่นเต้น
 
 		[MADELINE right normal]
-		I'm ready to put this all behind me.
+		ฉันพร้อมที่จะทิ้งทุกอย่างไว้ข้างหลัง
 
 		[THEO left normal]
-		I'll be cheering you on.
-		We should get some sleep.
+		ฉันจะเชียร์คุณ
+		เราควรจะพักผ่อนบ้างนะ
 
 		[MADELINE right normal]
-		Okay, goodnight, {+THEO}.
+		โอเค, ราตรีสวัสดิ์, {+THEO}.
 
 		[MADELINE right distracted]
-		Thanks for... being cool.
+		ขอบคุณสำหรับ
 
 		[THEO left thinking]
-		What can I say? It comes naturally.
+		จะพูดว่าไงดี? ให้มันดูเป็นธรรมขาติ
 
 	CH6_THEO_ASK_SLEEP=
 		[MADELINE right distracted]
-		I should get some sleep.
+		ฉันควรจะนอนได้แล้ว
 	CH6_THEO_SAY_SLEEP=
 		[MADELINE right distracted]
-		I should get some sleep.
+		ฉันควรจะนอนได้แล้ว
 
 		[THEO left thinking]
-		Oh, are you sure you don't want to keep talking?
+		โอ้, แน่ใจเหรอว่าไม่อยากคุยต่อ?
 
 		[THEO left normal]
-		I'm tired too, but we have a lot to talk about.
+		ฉันเหนื่อยเหมือนกัน แต่เรามีเรื่องต้องคุยกันมากมาย
 
 	CH6_THEO_ASK_SLEEP_CONFIRM=
 		[MADELINE right sad]
-		Yeah, sorry, I'm really tired.
+		ใช่, ขอโทษ, ฉันเหนื่อยมากจริง ๆ
 	CH6_THEO_SAY_SLEEP_CONFIRM=
 		[MADELINE right sad]
-		Yeah, sorry, I'm really tired.
+		ใช่, ขอโทษ, ฉันเหนื่อยมากจริง ๆ
 
 		{+CH6_THEO_SAY_SELFIE}
 
 	CH6_THEO_ASK_SLEEP_CANCEL=
 		[MADELINE right normal]
-		You're right, I can sleep later.
+		คุณพูดถูก, ฉันนอนทีหลังได้
 	CH6_THEO_SAY_SLEEP_CANCEL=
 		[MADELINE right sad]
-		You're right, I can sleep later.
+		คุณพูดถูก, ฉันนอนทีหลังได้
 
 	CH6_DREAMING=
 		[MADELINE left normal]
-		The northern lights are so beautiful.
+		แสงเหนือสวยมากเลย
 
 		[BADELINE right worried]
-		Yeah... they are...
+		ใช่... พวกเขาคือ...
 		...
 
 		[BADELINE right worriedAlt]
-		Where are we?
+		เราอยู่ที่ไหน?
 
 		[MADELINE left sad]
-		We need to talk.
+		เราต้องคุยกัน
 
 		[BADELINE right worried]
-		...okay.
+		...โอเค
 
 		[MADELINE left distracted]
-		I finally understand who you are.
+		ในที่สุดฉันก็เข้าใจว่าคุณเป็นใคร
 
 		[MADELINE left sad]
-		You're not my true reflection.
+		คุณไม่ใช่ภาพสะท้อนที่แท้จริงของฉัน
 
 		[BADELINE right worriedAlt]
-		...I'm not?
+		...ฉันไม่ใช่?
 
 		[MADELINE left sad]
-		You're everything I need to leave behind.
-		You're cruel, paranoid, controlling...
+		คุณคือทุกสิ่งที่ฉันต้องการทิ้งไว้ข้างหลัง
+		คุณโหดร้าย, หวาดระแวง, ควบคุมไม่ได้...
 
 		[BADELINE right worriedAlt]
-		Why would you say that?
+		ทำไมคุณพูดแบบนั้น?
 
 		[MADELINE left normal]
-		No, it's okay!
-		I understand now.
-		I don't need you anymore.
+		ไม่, มันไม่เป็นไร!
+		ฉันเข้าใจแล้ว
+		ฉันไม่ต้องการคุณอีกแล้ว
 
 		[BADELINE right worried]
-		So you're just... abandoning me?
+		คุณก็แค่... จะทิ้งฉันไปงั้นเหรอ?
 
 		[MADELINE left sad]
-		I'm setting you free.
+		ฉันจะปล่อยให้คุณเป็นอิสระ
 
 		[MADELINE left normal]
-		We'll both be so much happier.
+		เราทั้งสองจะมีความสุขมากขึ้น
 
 		[BADELINE right worried]
-		You're so...
+		คุณมัน...
 
 		[BADELINE right sad]
-		so...
+		มัน...
 
 		[BADELINE right freakA pop]
 		{silent_trigger 0 Tentacles Appear}
-		...so stupid!
+		...โง่มาก!
 
 		[BADELINE right freakB pop]
 		{silent_trigger 0 Tentacles Appear More}
-		You think you can just {~}leave me behind?{/~}
+		คุณคิดว่าคุณสามารถ {~}ทิ้งฉันไว้ข้างหลังได้ไหม?{/~}
 		{silent_trigger 0 Tentacles Appear moooore}
-		You think you can blame everything on me?
+		คุณคิดว่าคุณสามารถโยนทุกอย่างให้ฉัน?
 		{silent_trigger 0 Tentacles Appear EVEN MORE}
-		You think you're {~}above{/~} me!?
+		คุณคิดว่าคุณอยู่ {~}เหนือ{/~} ฉันเหรอ!?
 
 		[BADELINE right freakC pop]
 		{silent_trigger 1 Tentacles grab Madeline}
-		{!}{*}ANSWER ME!{/*}{/!}
+		{!}{*}ตอบฉันสิ!{/*}{/!}
 
 		[MADELINE left panic]
-		Calm down, please...
+		ใจเย็น ๆ, ได้โปรด...
 
 		{trigger 4 start circling the player}
 		[BADELINE right freakC_cont]
-		{!}{*}Calm down!?{/*}{/!}
+		{!}{*}ใจเย็น ๆ!?{/*}{/!}
 
 		[MADELINE left determinedclosed]
-		Breathe, {+MADELINE}.
-		Use the feather.
+		ใจเย็น, {+MADELINE}.
+		ใช้ขนนก
 
 		{trigger 2 Feather minigame}
 
 		[BADELINE right freakBAlt]
-		You're going to {~}think about a feather{/~} to stop me?
+		คุณจะ {~}ใช้ขนนก{/~} เพื่อหยุดฉัน?
 
 		{trigger 3 Destroy feather minigame}
 
 		[BADELINE right freakBAlt]
-		You are not {*}above me.{/*}
-		And you {*}can't{/*} climb this {+MOUNTAIN}.
+		คุณไม่ได้ {*}อยู่เหนือฉัน{/*}
+		และคุณ {*}ไม่สามารถ{/*} ปีนขึ้นไป {+MOUNTAIN} ได้
 
 		[BADELINE right freakCAlt pop]
-		It's time to accept that.
+		ถึงเวลาที่ต้องยอมรับมัน
 
 	CH6_THEO_WATCHOUT=
 		[THEO left worried]
-		{+MADELINE}, what's happening!?
+		{+MADELINE}, เกิดอะไรขึ้น!?
 
 	CH6_REFLECT_AFTER=
 		[MADELINE left sad]
-		I was so close.
+		ใกล้ไปแล้ว
 
 		[MADELINE left panic]
-		It's over now.
-		Why won't she leave me alone?
+		ตอนนี้มันจบแล้ว
+		ทำไมเธอไม่ปล่อยให้ฉันอยู่คนเดียวล่ะ?
 
 		[MADELINE left angry]
-		I {*}hate{/*} her.
+		ฉัน {*}เกลียด{/*} เธอ
 		...
 
 		[MADELINE left distracted]
 		...
-		But she's {+PART_OF_ME}.
-		I'll never be able to get rid of her.
+		แต่เธอคือ {+PART_OF_ME}.
+		ฉันไม่สามารถกำจัดเธอได้
 
 		[MADELINE left sad]
-		And she was right.
-		I couldn't climb the {+MOUNTAIN}.
+		และเธอก็พูดถูก
+		ฉันไม่สามารถปีนขึ้นไปบน {+MOUNTAIN}.
 
 	CH6_OLDLADY=
 		[GRANNY right normal]
-		Oh, hello again.
+		โอ้, หวัดดีอีกครั้ง
 
 		[MADELINE left upset]
-		Of course you're here.
+		โอ้ ยายอยู่ที่นี่
 
 		{trigger 0 Zoom in}
 
 		[GRANNY right mock]
-		Callin' it quits I see.
+		ฉันเห็นเธอพักอยู่
 		
 		[MADELINE left upset]
-		No, I fell.
-		It's over.
+		ไม่, ฉันล้มเหลว
+		มันจบแล้ว
 
 		[GRANNY right normal]
-		That's probably for the best.
-		The {+MOUNTAIN} doesn't pull any punches.
+		นั่นอาจเป็นสิ่งที่ดีที่สุด
+		{+MOUNTAIN} ไม่มียั้งเลย
 
 		[MADELINE left upset]
-		Yeah, I get it. 
-		I wasn't strong enough to climb your stupid {+MOUNTAIN}.
+		ใช่, ฉันเข้าใจ 
+		ฉันไม่แข็งแกร่งพอที่จะปีนขึ้นไปบน {+MOUNTAIN} โง่ ๆ ของยาย
 
 		[MADELINE left distracted]
-		You can laugh at me again if you want.
+		ยายสามารถหัวเราะเยาะฉันอีกครั้งได้ ถ้าต้องการ
 
 		{trigger 1 Start laughing}
 		
 		[MADELINE left upset]
-		I didn't mean actually laugh...
+		ฉันไม่ได้หมายถึงการหัวเราะจริงๆ...
 
 		{trigger 2 Stop laughing}
 		
 		[GRANNY right normal]
-		Sometimes you gotta know when to throw in the towel.
-		You'll get over it.
+		บางครั้งคุณต้องรู้ว่าเมื่อไหร่ควรโยนผ้าขาว
+		แล้วคุณจะเอาชนะมันได้
 
 		{trigger 3 Maddy walks right}
 		
 		[MADELINE left angry]
-		You know what?
-		I had a lot of time to think,{n}climbing out of this cave...	
-		And I'm already {*}over it.{/*}
+		ยายรู้อะไรไหม?
+		ฉันมีเวลาคิดมากมาย{n}การปีนออกจากถ้ำนี้...	
+		และฉันก็ {*}ทำสำเร็จแล้ว{/*}
 
 		{trigger 4 Maddy walks left}
 
 		[MADELINE left upset flip]
-		That {0.4}{+PART_OF_ME}{0.4} was right, I can't do this.
+		{0.4}{+PART_OF_ME}{0.4} ถูกต้อง, ฉันทำไม่ได้
 
 		[MADELINE left panic flip]
-		I'll just... go home to my sad life{n}and {.4}be miserable forever.
+		ฉันจะ... กลับบ้านไปสู่ชีวิตที่เศร้าหมองของฉัน{n}และ {.4}เป็นทุกข์ตลอดไป
 
 		{trigger 5 Wait a bit}
 		
 		[GRANNY right normal]
-		You clearly aren't over it.
+		เห็นได้ชัดว่าคุณผ่านมันไปไม่ได้
 
 		{trigger 6 Maddy turns right}
 		
 		[MADELINE left upset]
-		Shut up, I know.
+		เงียบน่ายาย, ฉันรู้
 
 		[MADELINE left distracted]
-		I don't want to give up...
-		But no matter how hard I try, she{n}sabotages me every step of the way.
+		ฉันไม่ต้องการที่จะยอมแพ้...
+		แต่ไม่ว่าฉันจะพยายามแค่ไหน เธอก็{n}บ่อนทำลายฉันทุกย่างก้าว
 		
 		[GRANNY right normal]
-		A lot of kids come here to climb{n}this {+mountain}, only to give up.
-		It's a shame that you fell,{n}I was starting to think you'd make it.
+		เด็ก ๆ หลายคนมาที่นี่เพื่อปีน{n}{+mountain} นี้ , และไม่ยอมแพ้
+		เป็นเรื่องน่าเสียดายที่คุณล้มเหลว,{n}ฉันเริ่มคิดว่าคุณจะทำได้
 
 		[MADELINE left sad]
-		What makes me so special?
+		อะไรที่ทำให้ฉันแตกต่าง?
 
 		[GRANNY right normal]
-		I've never met someone so angry at themself.
+		ฉันไม่เคยเจอใครโกรธตัวเองขนาดนี้มาก่อน
 
 		{trigger 1 Start lauging}
 
 		[GRANNY right laugh]
-		Honestly, I thought you'd reach{n}the summit just to spite yourself.
+		พูดตามตรง, ฉันคิดว่าคุณจะไปถึง{n}ยอดเขาเพียงเพื่อทำร้ายตัวเอง
 
 		[MADELINE left upset]
-		Gee, thanks.
+		โอ๊ะ, ขอบคุณมาก
 
 		{trigger 2 Stop laughing}
 
 		[GRANNY right normal]
-		This girl you're talking about,{n}it sounds like she's holding you back.
-		Talk to her.
-		Figure out why she's so scared.
+		ผู้หญิงคนนี้ที่คุณกำลังพูดถึง,{n}ดูเหมือนเธอจะรั้งคุณไว้
+		คุยกับเธอ
+		คิดให้ออกว่าทำไมเธอถึงกลัวมาก
 		
 		[MADELINE left sad]
-		You think she's... scared?
+		ยายคิดว่าเธอ... กลัวเหรอ?
 
 		[MADELINE left distracted]
-		I guess I never thought of it that way.
+		ฉันไม่เคยคิดแบบนั้นเลย
 		
 		[GRANNY right normal]
-		Stop wasting both of our time and {~}ask her.{/~}
-		What have you got to lose?
+		หยุดเสียเวลาที่เราคุยกันเถอะ {~}แค่ถามเธอ{/~}
+		คุณไม่มีอะไรจะเสียนี่?
 
 	CH6_OLDLADY_B=
 		[MADELINE left sad]
-		I don't know how to find her...
+		ฉันไม่รู้จะหาเธอได้อย่างไร...
 
 		[GRANNY right normal]
-		She's {+PART_OF_YOU}, right?
-		If you look for her, she won't take long to find.
+		เธอคือ {+PART_OF_YOU}, ใช่ไหม?
+		หากคุณมองหาเธอ คงจะใช้เวลาไม่นานในการค้นหา
 
 		[MADELINE left upset]
-		...so you know about the {+MOUNTAIN}'s power.
+		...แล้วยายรู้เกี่ยวกับพลังของ {+MOUNTAIN} ไหม?
 
 		[GRANNY right normal]
-		Of course I know, I live here.
-		I tried to warn you.
+		แน่นอนฉันรู้, ฉันอาศัยอยู่ที่นี่
+		ฉันพยายามเตือนคุณแล้ว
 
 		[MADELINE left upset]
-		You need to work on your messaging.
+		คุณควรเปลี่ยนวิธีส่งข้อความใหม่นะ
 
 		[GRANNY right normal]
-		A glimpse at the truth is good for people.
-		Even if most can't accept what they see.
-		There's no shame in running back{n}to your car and driving away.
-		Some day you'll be ready,{n}then you'll come back.
+		ความจริงแวบหนึ่งเป็นสิ่งที่ดีสำหรับผู้คน
+		แม้ว่าส่วนใหญ่จะรับไม่ได้กับสิ่งที่พวกเขาเห็นก็ตาม
+		ไม่ต้องละอายที่จะวิ่งกลับ{n}ไปที่รถของคุณและขับออกไป
+		สักวันเมื่อคุณพร้อม,{n}แล้วคุณจะกลับมา
 
 		[MADELINE left distracted]
 		...
-		No.
+		ไม่
 
 		[MADELINE left sad]
-		I'm going to see this through.
-		No more running.
+		ฉันจะผ่านมันไปให้ได้
+		ไม่ต้องวิ่งหนีอีกต่อไป
 
 		[GRANNY right normal]
-		I thought so.
-		Good luck.
+		ฉันก็คิดอย่างนั้น
+		โชคดีนะ
 
 	CH6_OLDLADY_C=
 		[MADELINE left sad]
-		How can you stand living here?
-		Isn't it hard to deal with this all the time?
+		มาใช้ชีวิตอยู่ที่นี่ได้ยังไง?
+		มันไม่ยากเหรอ?
 
 		[GRANNY right normal]
-		It's true, you never really get used to it.
-		But it keeps me sharp.
-		I like that about it.
+		เป็นเรื่องจริง คุณไม่เคยชินกับมัน
+		แต่มันทำให้ฉันเฉียบคม
+		ฉันชอบมันนะ
 
 		[MADELINE left sad]
-		But the {+MOUNTAIN} is so... confrontational.
+		แต่ {+MOUNTAIN} เป็นแบบนั้น
 
 		[GRANNY right normal]
-		Sure, it doesn't beat around the bush.
-		{+CELESTE_MOUNTAIN} is a place of healing, dear.
-		The first step of healing{n}is confronting the problem.
-		It's never easy.
+		แน่นอน
+		{+CELESTE_MOUNTAIN} คือสถานที่บำบัดที่รัก
+		ขั้นตอนแรกของการรักษา{n}คือการเผชิญหน้ากับปัญหา
+		มันไม่เคยง่ายเลย
 
 		[MADELINE left upset]
-		Tell me about it.
+		บอกฉันเกี่ยวกับมัน
 
 	CH6_BOSS_START=
 		[BADELINE right angry flip]
-		Looking for me?
-		I thought you were done with me.
+		มองหาฉัน?
+		ฉันคิดว่าคุณไม่มีอะไรคุยกับฉันแล้ว
 
 		[MADELINE left sad]
-		That was a mistake.
-		I'm sorry.
+		นั่นเป็นความผิดพลาด
+		ฉันขอโทษ
 
 		[BADELINE right scoff flip]
-		You think you've got it {~}all figured out.{/~}
+		คุณคิดว่าคุณเข้าใจแล้ว {~}คิดออกทั้งหมดแล้ว{/~}
 
 		[BADELINE right angry flip]
-		You think you don't need me.
+		คุณคิดว่าคุณไม่ต้องการฉัน
 		
 		[MADELINE left upset]
-		I said I'm sorry.
+		ฉันบอกว่าฉันขอโทษ
 
 		[MADELINE left sad]
-		We need to move past this.
+		เราจำเป็นต้องก้าวข้ามผ่านสิ่งนี้ไป
 
 		{trigger 0 Badeline floats, zooms in}
 
 		[BADELINE right yell]
-		You expect me to trust you?
+		คุณคาดหวังให้ฉันเชื่อใจคุณ?
 
 		[MADELINE left angry]
-		You aren't innocent here either.
+		ฉันไม่ได้เป็นคนผิดซะทีเดียว
 		...
 
 		[MADELINE left determinedclosed]
-		But I know you're scared.
+		แต่ฉันรู้ว่าคุณกลัว
 		
 		{trigger 1 Maddy steps forward}
 		
 		[MADELINE left sad]
-		Look, we're at rock bottom.
-		There's no point in fighting.
+		ฟังนะ เราอยู่ก้นบึ้ง
+		ไม่จำเป็นต้องเถียงกัน
 
 		[BADELINE right scoff]
-		I can keep digging.
+		ฉันขุดลงไปได้อีกนะ
 
 		[BADELINE right angry]
-		I could pull us down to the center of the earth.
+		ฉันสามารถดึงเราลงไปที่ใจกลางโลกได้
 
 		[MADELINE left sad]
-		What would be the point?
+		ประเด็นคืออะไร?
 
 		[MADELINE left together]
-		{s 4}Let's climb out of here {.6}[MADELINE left togetherZoom]together.
+		{s 4}ออกไปจากที่นี่{.6}[MADELINE left togetherZoom]ด้วยกัน
 		
 		[BADELINE right yell]
-		Come close to me and I'll make you regret it.
+		ถ้าเข้ามาใกล้ฉัน แล้วฉันจะทำให้คุณเสียใจ
 
 	CH6_BOSS_TIRED_A=
 		[BADELINE right angry]
-		I did you a favor.
+		ช่วยฉันหน่อย
 
 	CH6_BOSS_TIRED_B=
 		[BADELINE right yell]
-		You aren't a {*}mountain climber.{/*}
+		คุณไม่ใช่ {*}นักปีนเขา{/*}
 
 	CH6_BOSS_TIRED_C=
 		[BADELINE right yell]
-		{*}I'm just trying to help you!{/*}
+		{*}ฉันแค่พยายามช่วยคุณ!{/*}
 
 	CH6_BOSS_MIDDLE=
 		[BADELINE right yell]
-		None of this would have {*}happened{/*}{n}if you had {*}listened to me!{/*}
+		สิ่งนี้จะไม่ {*}เกิดขึ้น{/*}{n}ถ้าคุณแค่ {*}ฟังฉัน!{/*}
 
 	CH6_BOSS_ENDING=
 		[BADELINE right sigh flip]
-		Fine.
-		You win.
+		ก็ได้
+		คุณชนะ
 
 		{silent_trigger 0 Music starts}
 
 		[BADELINE right worried flip]
-		I guess you don't need me after all.
+		ฉันคิดว่าคุณไม่ต้องการฉันหรอก
 
 		[BADELINE right worriedAlt flip]
-		If you want me to go away, I'll try.
+		ถ้าคุณต้องการให้ฉันไปฉันจะพยายาม
 		
 		[MADELINE left distracted]
-		That's not what I want.
-		I need your help now more than ever.
+		นั่นไม่ใช่สิ่งที่ฉันต้องการ
+		ตอนนี้ฉันต้องการความช่วยเหลือจากคุณมากกว่าที่เคย
 
 		[MADELINE left sad]
-		Please. Let's work together.
+		ได้โปรด. มาร่วมมือกันเถอะ
 
 		[BADELINE right worried flip]
-		Work together?
+		ร่วมมือกัน?
 
 		[BADELINE right worriedAlt flip]
-		You're joking, right?
+		ล้อเล่นใช่มั้ย?
 
 		{trigger 1 Madeline puts hand on Badeline}
 
 		[MADELINE left sad]
-		It's okay to be scared.
+		ถ้ากลัวก็ไม่เป็นไรนะ
 
 		{trigger 2 Badeline calms down}
 
@@ -3697,28 +3697,28 @@
 
 	CH6_ENDING=
 		[MADELINE left surprised]
-		How did we do that?
+		เราทำแบบนั้นได้ไง?
 
 		[MADELINE left normal]
-		If we can climb like that, maybe{n}we can still reach the summit!
+		ถ้าเราปีนได้แบบนั้น บางที{n}เราจะไปถึงยอดเขาได้!
 		
 		[BADELINE right worriedAlt]
-		You still want to climb the {+MOUNTAIN}?
+		คุณยังต้องการปีนขึ้นไปบน {+MOUNTAIN} อยู่ไหม?
 
 		[BADELINE right worried]
-		Why would we go back up there?
+		ทำไมเราต้องกลับไปที่นั่น?
 
 		{trigger 0 Old Lady enters right}
 
 		[GRANNY right normal]
-		It's good to see you two playing nice.
+		ดีใจที่เห็นคุณสองคนเข้ากันได้ดี
 
 		[MADELINE left sad]
-		Hey, thanks for talking some sense into me earlier.
+		เฮ้, ขอบคุณที่พูดถึงฉันก่อนหน้านี้
 
 		[GRANNY right normal]
-		Don't mention it.
-		I'm glad I can still be useful every now and then.
+		ช่างมันเถอะ
+		ฉันดีใจที่ยังมีประโยชน์อยู่
 
 		{portrait none}
 		{*}{+MADELINE}!!!{/*}
@@ -3726,90 +3726,90 @@
 		{trigger 1 Theo enters left}
 		
 		[THEO left worried]
-		{+MADELINE}! You're okay!
+		{+MADELINE}! เป็นไรไหม!
 
 		[THEO left wtf]
-		I ran down to help, but it looks like you're doing fine.
+		ฉันวิ่งลงมาช่วย แต่ดูเหมือนว่าคุณจะสบายดี
 		
 		[MADELINE right normal]
-		Thanks, {+THEO}.
+		ขอบคุณนะ, {+THEO}.
 
 		[MADELINE right distracted]
-		Honestly, maybe that fall was what I needed.
+		ที่จริงแล้ว, การร่วงนั้นอาจเป็นสิ่งที่ฉันต้องการ
 		
 		{trigger 8 theo stops being tired}
 		[THEO left wtf]
-		Is this the {+PART_OF_YOU} that you were talking about?
+		นี่คือ {+PART_OF_YOU} ที่คุณกำลังพูดถึงใช่ไหม?
 
 		[THEO left excited]
-		She's like an adorable goth {+MADELINE}!
+		เธอช่างเหมือนชาวเยอรมันที่น่ารัก {+MADELINE}!
 
 		[BADELINE right angry]
-		Hi.
+		ดี
 
 		[MADELINE right sad]
-		You were right, {+THEO}.
-		I shouldn't be afraid of her.
+		คุณคิดถูกแล้ว, {+THEO}.
+		ฉันไม่ควรกลัวเธอ
 
 		[MADELINE right normal]
-		If her and I work together,{n}I think we can still finish the climb.
+		ถ้าเธอและฉันร่วมมือกัน,{n}ฉันคิดว่าเรายังสามารถปีนได้สำเร็จ
 
 		[THEO left excited]
-		That's so rad!
+		น่าร๊ากกก!
 
 		[BADELINE right angry]
-		Wait, {0.4}{*}no{/*}.
+		เดี๋ยวนะ, {0.4}{*}ไม่{/*}.
 
 		[BADELINE right worried]
-		...I didn't agree to this.
+		...ฉันไม่เห็นด้วยกับเรื่องนี้
 
 		{trigger 2 Madeline turns to the right}
 
 		[BADELINE right worriedAlt]
-		You said we'd talk about things first.
+		คุณบอกว่าเราจะคุยกันก่อน
 
 		[MADELINE left sad]
-		You're right.
-		I understand that you're scared.
+		ก็ถูก
+		ฉันเข้าใจว่าคุณกำลังกลัว
 		
 		[MADELINE left distracted]
-		But we both know that this is something we want to do.
+		แต่เราทั้งคู่รู้ดี ว่านี่คือสิ่งที่เราต้องการทำ
 
 		[MADELINE left normal]
-		We have to try one last time.
+		เราต้องลองเป็นครั้งสุดท้าย
 
 		{trigger 7 Theo raises fist}
 
 		[THEO left yolo]
-		Yeah! You've got this!
+		ใช่! แล้วหล่นลงมาได้ไง
 		
 		[BADELINE right worried]
-		I don't know...
+		ฉันไม่รู้...
 
 		[BADELINE right worriedAlt]
-		We were so close, and then we, uh, fell...
+		เราสนิทกันมากแล้วเราก็ตกลงไป...
 
 		[BADELINE right worried]
-		The {+MOUNTAIN} tore us apart.
+		{+MOUNTAIN} แยกเราออกจากกัน
 
 		[MADELINE left upset]
-		Yeah, that happened.
+		ใช่, นั่นคือสิ่งที่เกิดขึ้น
 
 		[MADELINE left sad]
-		But I have to believe we can put that behind us.
-		I have to believe we're capable of this.
+		แต่ฉันต้องเชื่อว่าเราสามารถทิ้งสิ่งนั้นไว้ข้างหลังเราได้
+		ฉันต้องเชื่อว่าเราสามารถทำสิ่งนี้ได้
 
 		{trigger 5 Wait a bit}
 
 		[GRANNY right normal]
-		It's not a bad idea.
+		ก็เป็นความคิดที่ดี
 
 		{trigger 3 badeline turns right}
 
 		[GRANNY right normal]
-		It'll still be difficult, mind you.
-		But I'm amazed you got as far as{n}you did, butting heads like you were.
-		I reckon you can make it if you cooperate.
+		มันจะยังคงเป็นเรื่องยากในใจคุณ
+		แต่ฉันประหลาดใจที่คุณทำได้เท่าที่คุณทำได้{n}
+		ฉันคิดว่าคุณสามารถทำได้ถ้าคุณร่วมมือกัน
 
 		[BADELINE right worried flip]
 		...
@@ -3817,908 +3817,908 @@
 		{trigger 4 badeline turns left}
 
 		[BADELINE right worriedAlt]
-		Okay. 
+		โอเค 
 
 		[BADELINE right worried]
-		I'll try.
+		ฉันจะพยายาม
 
 		{trigger 5 Wait a bit}
 
 		[THEO left normal]
-		Can I help?
+		มีอะไรให้ฉันช่วยไหม?
 
 		{trigger 6 Madeline turns to the left}
 
 		[MADELINE right distracted]
-		You've already done so much for me.
+		คุณทำเพื่อฉันมามากแล้ว
 
 		[THEO left wtf]
-		Let me hold your bag at least.
+		อย่างน้อยให้ฉันถือกระเป๋าของคุณ
 
 		[MADELINE right normal]
-		Good idea.
+		เป็นความคิดที่ดี
 
 		[MADELINE right determined]
-		{>> 0.2}This won't take long.{>>}
+		{>> 0.2}ใช้เวลาไม่นาน{>>}
 
 # *** Chapter 07 ***
 
 	CH7_HEIGHT_START=Ground Level
-	CH7_HEIGHT_0={X} M
- 	CH7_HEIGHT_1={X} M
-	CH7_HEIGHT_2={X} M
-	CH7_HEIGHT_3={X} M
-	CH7_HEIGHT_4={X} M
-	CH7_HEIGHT_5={X} M
+	CH7_HEIGHT_0={X} เมตร
+ 	CH7_HEIGHT_1={X} เมตร
+	CH7_HEIGHT_2={X} เมตร
+	CH7_HEIGHT_3={X} เมตร
+	CH7_HEIGHT_4={X} เมตร
+	CH7_HEIGHT_5={X} เมตร
 
 	# Mountain Base -> Forsaken City
 	CH7_ASCEND_0=
 		[MADELINE left normal]
-		We're getting the hang of that.
+		เราทำได้
 
 		[BADELINE right upset]
-		If you say so...
+		ถ้าคุณพูดเช่นนั้น...
 
 		[MADELINE left determined]
-		This mountain doesn't stand a chance.
+		ภูเขานี้ไม่เปลี่ยนไปเลย
 
 		[BADELINE right worried]
-		Stop jinxing it.
+		อย่าพูดงั้น
 
 	# Forsaken City -> Old Site
 	CH7_ASCEND_1=
 		[MADELINE left normal]
-		How are you feeling?
+		รู้สึกยังไงบ้าง?
 
 		[BADELINE right upset]
-		I'm fine.
+		ฉันสบายดี.
 
 		[BADELINE right worried]
-		I'm just {0.4}waiting for something to go wrong.
+		ฉันแค่ {0.4}รอให้มีบางอย่างผิดพลาด
 
 		[MADELINE left sad]
-		No matter what happens,{n}I'll be right there with you.
+		ไม่ว่าจะเกิดอะไรขึ้น,{n}ฉันจะอยู่ที่นั่นกับคุณ
 
 		[BADELINE right worried]
-		You know what's really scary?
+		คุณรู้ไหมว่าอะไรน่ากลัวจริงๆ?
 		
 		[BADELINE right upset]
-		I'm starting to believe you.
+		ฉันเริ่มที่จะเชื่อคุณ
 
 	# Old Site -> Celestial Resort
 	CH7_ASCEND_2=
 		[BADELINE right normal]
-		Nice job back there.
+		ดีมาก กลับมาแล้ว
 
 		[MADELINE left surprised]
-		Look at you!
+		ดูนั่น!
 
 		[MADELINE left normal]
-		{+ST_BAD}Ms\. Positivity{+END_BAD} over here.
+		{+ST_BAD}Ms\. Positivity{+END_BAD} ตรงนี้
 
 		[MADELINE left determined]
-		You're so supportive.
+		คุณช่วยเหลือมาพอแล้ว
 
 		[BADELINE right angry]
-		Don't push your luck.
+		อย่าเสี่ยงเลย
 		
 	# Celestial Resort -> Cliffside
 	CH7_ASCEND_3=
 		[MADELINE left distracted]
-		I hope {+MROSHIRO} is okay.
+		ฉันหวังว่า {+MROSHIRO} จะโอเค
 
 		[BADELINE right angry]
-		Why? He treated you like garbage.
+		ทำไม? เขาปฏิบัติกับคุณเหมือนขยะ
 
 		[MADELINE left sad]
-		Yeah, but I still care about him.
+		ใช่, แต่ฉันยังคงห่วงใยเขา
 		
 		[MADELINE left upset]
-		And you didn't have to snap at him like you did.
+		และคุณไม่จำเป็นต้องแกล้งเขาเหมือนที่คุณทำ
 
 		[BADELINE right angry]
-		Whatever.
+		ตามใจ
 
 		[MADELINE left sad]
-		I mean it. You're way too aggressive.
+		ฉันหมายถึงมัน คุณก้าวร้าวเกินไป
 
 		[BADELINE right angry]
-		Well {~}you{/~} put too much energy into bad{n}people who will just end up hurting you.
+		อืม  {~}คุณ{/~} ใช้พลังงานมากเกินไป กับคนไม่ดี{n}ที่จะมาทำร้ายคุณ
 
 		[MADELINE left distracted]
-		{+MROSHIRO} isn't a bad person...
+		{+MROSHIRO}ไม่ใช่คนเลว...
 
 		[BADELINE right yell]
-		He transformed into a {*}monster!{/*}
-		He tried to {*}hurt{/*} you!
+		เขากลายร่างเป็น {*}สัตว์ประหลาด!{/*}
+		เขาพยายาม {*}ทำร้าย{/*} คุณ!
 
 		[BADELINE right worriedAlt]
-		And now you're defending him?
+		และตอนนี้คุณกำลังปกป้องเขาอยู่?
 
 		[MADELINE left distracted]
-		I'm not defending him...
+		ฉันไม่ได้ปกป้องเขา...
 
 		[MADELINE left sad]
-		I'm on your side here.{n}I'm mad at him too.
-		I might still be in that hotel{n}if you hadn't forced the issue.
+		ฉันอยู่เคียงข้างคุณที่นี่{n}ฉันก็โกรธเขาเหมือนกัน
+		ฉันอาจจะยังอยู่ในโรงแรมนั้น{n}หากคุณไม่ได้ทำให้เกิดปัญหา
 
 		[MADELINE left distracted]
-		...but I still hope he's alright.
+		...แต่ฉันก็ยังหวังว่าเขาจะสบายดี
 
 		[BADELINE right worried]
 		...
 
 		[BADELINE right worriedAlt]
-		Okay...
-		...I'm sorry...
+		ตกลง...
+		...ฉันขอโทษ...
 
 		[BADELINE right worried]
-		...for snapping at {+MROSHIRO}.
+		...สำหรับการพักผ่อนที่ {+MROSHIRO}.
 
 		[MADELINE left distracted]
-		Thanks. 
+		ขอบคุณ 
 		
 		[MADELINE left sad]
-		It's in the past now.
+		มันผ่านไปแล้ว
 		
 	# Cliffside -> Temple
 	CH7_ASCEND_4=
 		[MADELINE left surprised]
-		That was a close one.
+		ใกล้แล้ว
 
 		[BADELINE right worried]
-		Yeah, I wasn't sure if we'd make it.
+		ใช่, ฉันไม่แน่ใจว่าเราจะทำได้ไหม
 
 		[MADELINE left distracted]
-		Maybe you were right.
+		บางทีคุณอาจจะพูดถูก
 
 		[MADELINE left sad]
-		Maybe this {~}is{/~} too dangerous.
+		บางที สิ่งนี้{~}อันตราย{/~} เกินไป
 
 		[BADELINE right worried]
 		...
 
 		[BADELINE right angry]
-		{*}No.{/*}
-		I was wrong.
-		We can climb this {+MOUNTAIN}.
+		{*}ไม่{/*}
+		ฉันผิดไปแล้ว
+		เราสามารถปีนขึ้นไปบน {+MOUNTAIN} นี้ได้
 
 		[BADELINE right normal]
-		I've got your back...
+		ฉันกลับมาแล้ว...
 
 		[BADELINE right worried]
-		...and...
+		...และ...
 
 		[BADELINE right worriedAlt]
-		...I believe in you.
+		...ฉันเชื่อในตัวคุณ
 
 		[MADELINE left sad]
-		That means a lot to me.
+		นั่นมีความหมายมากสำหรับฉัน
 		
 	# Temple -> Summit
 	CH7_ASCEND_5=
 		[MADELINE left determined]
-		This is it, the home stretch.
+		นั่นมัน จุดสิ้นสุดของการเดินทาง
 
 		[MADELINE left normal]
-		We're so close.{n}We're going to make it!
+		ใกล้เข้ามาแล้ว{n}ราจะไปให้ถึง!
 
 		[BADELINE right worriedAlt]
-		Yeah...
+		ใช่...
 
 		[BADELINE right worried]
 		...
 
 		[MADELINE left sad]
-		What's wrong?
+		มีอะไร?
 
 		[BADELINE right worried]
-		...I'm just...
+		...ฉันแค่...
 		...
 
 		[BADELINE right worriedAlt]
-		...I'm sorry. 
-		I was holding you back.
+		...ฉันขอโทษ
+		ฉันกำลังรั้งคุณไว้
 
 		[BADELINE right worried]
-		I need to learn to trust you.
+		ฉันต้องเรียนรู้ที่จะเชื่อใจคุณ
 
 		[MADELINE left distracted]
-		It's not your fault.
-		I tried to leave you behind.
-		And honestly, I've been trying to{n}leave you behind my entire life.
+		มันไม่ใช่ความผิดของคุณ
+		ฉันพยายามทิ้งคุณไว้ข้างหลัง
+		และด้วยความสัตย์จริงฉันพยายาม{n}ทิ้งคุณไว้เบื้องหลังไปทั้งชีวิต
 
 		[MADELINE left sad]
-		{~}I'm{/~} sorry.
-		I wish I tried to understand you sooner.
-		I was too proud, or stubborn, or {*}something.{/*}
+		{~}ฉัน{/~} ขอโทษ
+		ฉันหวังว่าฉันจะพยายามเข้าใจคุณเร็วขึ้น
+		ฉันภูมิใจเกินไปหรือดื้อรั้นหรือ {*}บางอย่าง.{/*}
 
 		[BADELINE right worriedAlt]
-		We wasted so much time and energy.
+		เราเสียเวลาและพลังงานไปมาก
 
 		[BADELINE right worried]
 		...
 
 		[BADELINE right worriedAlt]
-		At least we're finally talking about it.
+		อย่างน้อยที่สุดเราก็กำลังพูดถึงเรื่องนี้
 
 		[MADELINE left sad]
-		Yeah...
+		ใช่...
 
 		[MADELINE left normal]
-		I'm glad the {+MOUNTAIN} brought you out.
-		I think we can move past this.
-		If we can climb this {+MOUNTAIN} together,{n}we can do anything.
+		ฉันดีใจที่ {+MOUNTAIN} พาคุณออกมา
+		ฉันคิดว่าเราสามารถผ่านพ้นเรื่องนี้ไปได้
+		ถ้าเราปีน {+MOUNTAIN} นี้ด้วยกันได้{n}เราจะทำทุกอย่างได้
 		
 		[BADELINE right worried]
-		What if we don't make it?
+		ถ้าเราไม่ทำล่ะ?
 
 		[MADELINE left normal]
-		I'd be okay with that.
+		ฉันจะโอเคกับสิ่งนั้น
 
 		[BADELINE right worriedAlt]
-		You would?
+		คุณจะ?
 
 		[MADELINE left sad]
-		Of course.
+		แน่นอน
 		
 		[MADELINE left normal]
-		I'm just glad we're trying.
+		ฉันแค่ดีใจที่เรากำลังพยายาม
 
 		[MADELINE left sad]
-		I really needed to do this.
+		ฉันจำเป็นต้องทำสิ่งนี้จริงๆ
 		
 		[BADELINE right upset]
-		I'm finally starting to understand why.
+		ในที่สุดฉันก็เริ่มเข้าใจว่าทำไม
 
 		[BADELINE right normal]
-		Let's finish it.
+		ไปจบมันกันเถอะ
 
 	CH7_ENDING=
 		[BADELINE left normal]
-		We actually did it.
-		I can't believe it!
+		เราทำได้จริง ๆ
+		ไม่อยากจะเชื่อเลย
 
 		[MADELINE right surprised flip]
-		Wow! It's so beautiful!
+		ว้าว! มันสวยงามมาก!
 		
 		[MADELINE right normal flip]
-		Look at how far we've come!
+		ดูสิว่าเรามาไกลแค่ไหน!
 
 		{trigger 1 Madeline sits down}
 
 		[BADELINE left normal]
-		I'm glad I got to see this before I...
+		ฉันดีใจที่ได้เห็นสิ่งนี้ก่อนที่ฉันจะ ...
 
 		[BADELINE left worriedAlt]
-		Well, before I...
+		ก่อนที่ฉันจะ...
 
 		[MADELINE right distracted flip]
-		Oh, right.
+		โอ้, ใช่
 
 		[MADELINE right sad flip]
-		When we leave the {+MOUNTAIN}, you{n}won't be able to talk to me anymore...
-		At least not like this.
+		เมื่อเราออกจาก {+MOUNTAIN} คุณ {n} จะไม่สามารถคุยกับฉันได้อีกต่อไป...
+		อย่างน้อยก็ไม่ใช่แบบนี้
 
 		[BADELINE left worried]
-		Yeah.
+		ใช่
 
 		[BADELINE left upset]
-		I know that we need to go home eventually.
-		But it'll be scary to lose this body.
+		ฉันรู้ว่าในที่สุดเราก็ต้องกลับบ้าน
+		แต่มันจะน่ากลัวที่จะสูญเสียร่างกายนี้ไป
 
 		{trigger 2 Badeline moves beside Maddy as camera begins panning right}
 
 		[MADELINE left sad]
-		You'll still exist, though.
-		You were {+PART_OF_ME} before we came here.
+		คุณจะยังคงอยู่แม้ว่า
+		คุณเคยเป็น {+PART_OF_ME} ก่อนที่เราจะมาที่นี่
 
 		[BADELINE left upset]
-		Yeah, I know.
-		But I'm gonna have to depend on you to listen to me.
+		ใช่, ฉันรู้
+		แต่ฉันต้องพึ่งพาคุณ คุณถึงจะฟังฉัน
 
 		[BADELINE left worried]
-		...even if I can't talk to you in person anymore.
+		...แม้ว่าฉันจะไม่สามารถคุยกับคุณเป็นการส่วนตัวได้อีกต่อไป
 
 		[BADELINE left worriedAlt]
-		I just... can't go back to how it was before.
-		Before the {+MOUNTAIN}.
+		ฉันแค่... ย้อนกลับไปก่อนหน้านี้ไม่ได้
+		ก่อนถึง {+MOUNTAIN}.
 
 		[MADELINE right sad flip]
-		Don't worry, I can't go back to that either.
-		I really want us to work together from now on.
+		ไม่ต้องกังวล ฉันจะกลับไปที่นั่นไม่ได้เช่นกัน
+		ฉันต้องการให้เราร่วมมือกันนับจากนี้
 
 		[BADELINE left upset]
-		I believe you.
+		ฉันเชื่อคุณ
 
 		[BADELINE left worriedAlt]
-		...but I'm still nervous.
+		...แต่ฉันก็ยังกังวล
 
 		{trigger 0 Wait a bit}
 		
 		[BADELINE left upset]
-		So... now what?
+		แล้ว... ตอนนี้เป็นไง?
 
 		[MADELINE right distracted flip]
 		...
 
 		[MADELINE right normal flip]
-		Let's just enjoy this for a bit.
+		ขอแค่สนุกกับสิ่งนี้สักหน่อย
 
 	CH7_BSIDE_ASCEND=
 		[BADELINE left freakA]
-		That was amazing!
+		มันน่าทึ่งมาก!
 
 		[MADELINE right surprised]
-		I can't believe we did that!
+		ไม่อยากจะเชื่อเลยว่าเราทำอย่างนั้น!
 
 		[BADELINE left freakA]
-		Nothing can stop us!
+		ไม่มีอะไรหยุดเราได้!
 
 		[MADELINE right upset]
-		You're scaring me right now.
+		ตอนนี้คุณกำลังทำให้ฉันกลัว
 
 	CH7_CSIDE_OLDLADY=
 		[GRANNY right normal]
-		It's hard to believe that it's over, isn't it?
+		มันยากที่จะเชื่อว่ามันจบแล้วใช่มั้ย?
 
 		[GRANNY right laugh]
-		Funny how we get attached to the struggle.
+		ตลกดีที่เรายึดติดกับการต่อสู้
 
 		[GRANNY right normal]
-		Promise me that you'll take care of yourself, okay?
+		สัญญานะว่าจะดูแลตัวเอง, โอเค?
 
 	CH7_CSIDE_OLDLADY_B=
 		[GRANNY right normal]
-		Well?
-		What are you waiting for?
+		ดี?
+		แล้วรออะไรอยู่?
 
 # *** Epilogue ***
 
 	EP_CABIN=
 		[GRANNY right normal]
-		Welcome back.
+		ยินดีต้อนรับกลับ
 
 		[THEO right excited]
 		{+MADELINE}!
-		Did you make it to the summit?
+		คุณไปถึงยอดเขาไหม?
 		
 		{trigger 0 Badeline emerges}
 
 		[MADELINE left normal]
-		Yeah, we did.
-		It was incredible.
+		ใช่, เราทำได้
+		มันเหลือเชื่อมาก
 
 		[GRANNY right normal]
-		Beautiful, isn't it?
+		มันสวย, ใช่ไหมล่ะ?
 
 		[BADELINE left upset]
-		I didn't think it would be worth it...
+		ไม่คิดเลยว่าจะคุ้มขนาดนี้...
 
 		[BADELINE left normal]
-		But it totally was.
+		ใช่ทั้งหมดนั่นเลย
 
 		[THEO right thinking]
-		I should've given you my phone so{n}you could take {~}The Ultimate Selfie.{/~}
+		ฉันควรให้โทรศัพท์กับคุณ{n}เผื่อคุณถ่าย{~}สุดยอดเซลฟี่{/~}
 
 		{trigger 1 Fade out, hear knock on door, fade in and Oshiro enters}
 
 		[OSHIRO left normal]
-		Good evening, everyone.
+		สวัสดีตอนเย็นทุกคน
 
 		[BADELINE right angry]
-		What are {~}you{/~} doing here?
+		{~} คุณ {/~} มาทำอะไรที่นี่?
 
 		[OSHIRO left normal]
-		A little bird told me there was to be a party.
+		นกน้อยบอกฉันว่าจะมีงานเลี้ยง
 
 		[OSHIRO left sidehappy]
 		{+thought}RSVP-by-bird, positively magical!{+endthought}
 
 		[OSHIRO left drama]
-		But if I am unwelcome, I shall take my leave.
+		แต่ถ้าฉันไม่เป็นที่ต้อนรับ ฉันจะไป
 
 		[MADELINE right sad]
-		Please stay, {+MROSHIRO}.
+		โปรดอยู่ต่อ, {+MROSHIRO}.
 
 		[MADELINE right normal]
-		It's good to see you.
+		เป็นเรื่องดีที่ได้พบคุณ
 
 		{trigger 2 Oshiro settles in}
 
 		[GRANNY left normal]
-		Y'know, this is the first time I've seen{n}you outside that hotel of yours, {+OSHIRO}.
-		I'm glad you made it.
-		{+MADELINE} here is baking us a pie with all{n}of the strawberries she's been collecting.
+		นี่เป็นครั้งแรกที่ฉันได้เห็น {n} คุณนอกโรงแรมของคุณ {+OSHIRO}
+		ฉันดีใจที่คุณทำได้
+		{+MADELINE} อยู่ที่นี่กำลังอบพายกับสตรอเบอร์รี่ทั้งหมด {n} ที่เธอเก็บมา
 
 		[OSHIRO left normal]
-		Oh, that's wonderful, {+MS_MADELINE}.
+		โอ้ยอดเยี่ยมมาก, {+MS_MADELINE}.
 
 		[THEO right normal]
-		I haven't had {# F94A4A}strawberry pie{#} since I was a kid.
+		ฉันไม่ได้กิน {# F94A4A} พายสตรอเบอร์รี่ {#} ตั้งแต่ฉันยังเป็นเด็ก
 
 		[THEO right excited]
-		This is gonna be amazing!
+		มันจะต้องน่าทึ่งมาก!
 
 		[BADELINE right scoff]
-		Don't get your hopes up, she's not much of a baker.
+		อย่าเพิ่งหวังเยอะ เธอไม่ใช่คนทำขนมปัง
 
 		{trigger 3 Maddy Turns}
 
 		[MADELINE left normal]
-		You also said I wasn't a mountain climber.
+		คุณยังบอกว่าฉันไม่ใช่นักปีนเขา
 
 		[BADELINE right worried]
-		True.
+		ก็จริง
 
 		{trigger 3 Maddy Turns}
 
 		[MADELINE right sad]
-		I can't promise it'll live up to the hype, {+THEO}.
+		ฉันไม่สามารถสัญญาได้ว่ามันจะเป็นไปตามคำโฆษณา, {+THEO}.
 
 		[MADELINE right normal]
-		But I tried my best.
+		แต่ฉันก็พยายามเต็มที่แล้ว
 
 	EP_PIE_START=
 		[MADELINE right normal]
-		So?
-		How's it taste?
+		ดังนั้น?
+		รสชาติเป็นยังไงบ้าง?
 
 	EP_PIE_DISAPPOINTED=
 		[THEO left wtf]
-		I guess this is technically a pie...
+		ฉันเดาว่าในทางเทคนิคเป็นพาย...
 
 		[OSHIRO left worried]
-		Is this some kind of joke, {+MS_MADELINE}?
+		นี่เป็นเรื่องตลกหรือเปล่า {+MS_MADELINE}?
 
 		[GRANNY left normal]
-		Strawberry pies are supposed to{n}have strawberries in them, dear.
+		พายสตรอเบอร์รี่ควรจะ {n} มีสตรอเบอร์รี่อยู่ด้วยที่รัก
 
 	EP_PIE_GROSSED_OUT=
 		[THEO left wtf]
-		{+MADELINE}, I super appreciate you baking for us...
-		But I don't think I can eat this.
+		{+MADELINE},ฉันซาบซึ้งมากที่คุณทำขนมให้เรา...
+		แต่ฉันไม่คิดว่ามันจะกินได้
 
 		[GRANNY left normal]
 		It's the thought that counts.
 
 		[BADELINE left angry]
-		You people just can't appreciate good food.
-		I'll eat all of it myself.
+		พวกคุณไม่เข้าใจรสชาติอาหารที่ดีเลย
+		ฉันจะกินมันทั้งหมดเอง
 
 		[MADELINE right sad]
-		You don't have to do that.
+		คุณไม่จำเป็นต้องทำเช่นนั้น
 
 		[BADELINE left worried]
-		Yeah... it was an empty threat.
+		ใช่... มันน่ากังวลเปล่า ๆ
 
 	EP_PIE_OKAY=
 		[OSHIRO left normal]
-		The important thing is that you{n}tried your best, {+MS_MADELINE}.
+		สิ่งสำคัญคือคุณ {n} พยายามอย่างเต็มที่แล้ว {+ MS_MADELINE}
 
 		[BADELINE left angry]
-		Who invited this guy?
+		ใครชวนผู้ชายคนนี้
 
 		[THEO left thinking]
-		Come on, it's really good.
+		มาเลยมันดีจริงๆ
 
 		[GRANNY left normal]
-		I've certainly had worse.
+		ฉันเคยทำแย่กว่านี้
 
 		[THEO left normal]
-		Thanks for the pie, {+MADELINE}.
+		ขอบคุณสำหรับพาย, {+MADELINE}.
 
 	EP_PIE_REALLY_GOOD=
 		[GRANNY left normal]
-		I'm impressed!
-		This gives my baking a run for its money.
+		ฉันประทับใจ!
+		สิ่งนี้ทำให้การอบขนมของฉันเสียเปล่าเลย
 
 		[BADELINE left normal]
-		Not bad.
+		ไม่เลว
 
 		[THEO left excited]
-		Holy crap!
+		พระเจ้า!
 
 		[THEO left normal]
-		This is so tasty.
+		อร่อยมาก
 
 		[OSHIRO left normal]
-		{+MS_MADELINE}, are you available to{n}cater our re-opening banquet?
+		{+MS_MADELINE}, คุณพร้อมที่จะ{n}รองรับการจัดเลี้ยงที่เปิดใหม่ของเราไหม?
 		
 		[THEO left excited]
-		Can I take a slice home for {+ALEX}?
-		She'll die when she tastes this.
+		ฉันเอากลับบ้านไปให้ {+ALEX} ได้ไหม?
+		เธออยู่ไม่ได้แน่ เมื่อได้ลิ้มรสนี้
 		
 	EP_PIE_AMAZING=
 		[THEO left wtf]
 		{+MADELINE}.
 
 		[THEO left excited]
-		This is the best thing I've ever tasted!
+		นี่คือสิ่งที่ดีที่สุดที่ฉันเคยลิ้มลอง!
 
 		[MADELINE right sad]
-		Come on. Be honest.
+		ไม่เอาน่า ขอความจริง
 
 		[GRANNY left normal]
-		He's right, dear.
-		This is delicious.
+		เขาพูดถูกที่รัก
+		นี้มันอร่อยมาก
 
 		[OSHIRO left normal]
-		It's truly magnificent, {+MS_MADELINE}.
+		ช่างงดงามจริงๆ, {+MS_MADELINE}.
 
 		[OSHIRO left worried]
-		{~}A symphony for the taste buds!{/~}
+		{~}ซิมโฟนีสำหรับคนชอบชิม!{/~}
 
 		[BADELINE left scoff]
-		Can I take partial credit for this?
+		ฉันมีเครดิตบางส่วนในสิ่งนี้ด้วยไหม?
 
 		[MADELINE right normal]
-		Wow, thanks everyone.
-		I worked really hard for it.
+		ว้าวขอบคุณทุกคน
+		ฉันทำงานหนักมากเพื่อมัน
 		
 # *** Appendix ***
 
 	APP_INTRO=
-		About a year later...
+		ประมาณหนึ่งปีต่อมา...
 
 	APP_OLDLADY_A=
 		[GRANNY right normal]
-		Hey there, kiddo!
-		Nice to see you again.
+		ทางนี้, เจ้าหนู!
+		ยินดีที่ได้พบคุณอีกครั้ง
 
 		{trigger 0}
 
 		[GRANNY right normal flip]
-		Here's the cave I told you about{n}on the phone.
+		นี่คือถ้ำที่ฉันบอกคุณ {n} ทางโทรศัพท์
 		
 		{silent_trigger 1}
 		
-		Follow me.
+		ตามฉันมา
 
 	APP_OLDLADY_B=
 		[MADELINE left sad]
-		What is this place?
+		สถานที่นี้คืออะไร?
 
 		[GRANNY right normal]
-		This passage leads to the center of the {+MOUNTAIN}.
-		You said you wanted to come{n}back and explore deeper...
+		ข้อความนี้นำไปสู่ศูนย์กลางของ {+MOUNTAIN}.
+		คุณบอกว่าต้องการกลับมา {n} สำรวจให้ลึกกว่านี้...
 
 		{trigger 0 start laughing}
 
 		[GRANNY right laugh]
-		Doesn't get any deeper than this!
+		อย่าไปไกลกว่านี้อีกแล้ว!
 
 		{trigger 1 stop laughing}
 
 		[GRANNY right normal]
-		Be careful, though.
-		When you get this close to the heart of the {+MOUNTAIN},{n}its power will start affectin' you differently.
+		ระวังด้วยนะ
+		เมื่อคุณเข้าใกล้หัวใจของ {+MOUNTAIN},{n}พลังของมันจะเริ่มส่งผลต่อคุณอย่างแตกต่างออกไป
 
 		[MADELINE left sad]
-		Yeah, I already noticed some of that...
+		ใช่ฉันสังเกตเห็นบางอย่างแล้ว...
 
 		[GRANNY right normal]
-		Good luck in there.
+		ขอให้โชคดีในนั้น
 
 	APP_OLDLADY_C=
 		[GRANNY right normal]
-		Where's that other {+PART_OF_YOU}?
+		{+PART_OF_YOU} อยู่ที่ไหน?
 
 		[MADELINE left sad]
-		I don't know... I expected her to show up by now.
+		ฉันไม่รู้... ฉันหวังให้เธอปรากฏตัวในตอนนี้
 
 		[MADELINE left distracted]
-		Maybe I've changed, and{n}she's not {+PART_OF_ME} anymore.
+		บางทีฉันอาจเปลี่ยนไปและ{n}เธอไม่ใช่ {+PART_OF_ME} อีกต่อไป
 
 		[GRANNY right normal]
-		Or maybe you've grown together.
-		Maybe it's not so easy for the{n}{+MOUNTAIN} to separate you now.
-		I'd wager she's still with you, in some form.
+		หรือบางทีคุณอาจเติบโตมาด้วยกัน
+		บางทีมันอาจจะไม่ใช่เรื่องง่ายที่ {n} {+MOUNTAIN} จะแยกคุณในตอนนี้
+		ฉันจะเดิมพันว่าเธอยังคงอยู่กับคุณในบางรูปแบบ
 
 		[MADELINE left normal]
-		I like that theory better.
+		ฉันชอบทฤษฎีนั้น
 
 		[MADELINE left distracted]
-		I still wish I could talk to her though.
+		ฉันยังคงหวังว่าฉันจะได้คุยกับเธอ
 
 	APP_OLDLADY_D=
 		[GRANNY right normal]
-		Do you keep in touch with {+THEO}?
+		คุณยังติดต่อกับ {+THEO} อยู่ไหม?
 
 		[MADELINE left normal]
-		Yeah, he spent the summer in Vancouver.
-		We got to spend some quality time together.
+		ใช่, เขาใช้เวลาช่วงฤดูร้อนในแวนคูเวอร์
+		เราใช้เวลาที่มีคุณภาพร่วมกัน
 
 		[GRANNY right normal]
-		What's he up to these days?
+		ทุกวันนี้เขาเป็นยังไงบ้าง?
 
 		[MADELINE left normal]
-		He's back in California with his family now.
-		He wants to be around while{n}his sister finishes law school.
+		ตอนนี้เขากลับมาอยู่ที่แคลิฟอร์เนียกับครอบครัวแล้ว
+		เขาอยากอยู่ใกล้ ๆ ในขณะที่ {n} น้องสาวของเขาเรียนจบโรงเรียนกฎหมาย
 
 		[MADELINE left sad]
-		It sounds pretty intense, but he{n}wants to be there to support her.
+		ฟังดูค่อนข้างวุ่นวาย แต่เขา{n}ต้องการอยู่เคียงข้างเธอ
 
 		[GRANNY right normal]
-		He seems like a nice young man.
+		เขาดูเหมือนชายหนุ่มที่ดี
 
 	APP_OLDLADY_E=
 		[MADELINE left normal]
-		It's been a while. How've you been?
+		คุณเป็นอย่างไรบ้าง?
 
 		[GRANNY right normal]
-		Oh, same old same old.
+		โอ้, ก็แก่เหมือนเดิม
 
 		{trigger 0 start laughing}
 
 		[GRANNY right laugh]
-		And in my case, that's pretty old.
+		และในกรณีของฉันมันค่อนข้างแก่
 
 		{trigger 1 end laughing}
 
 		[GRANNY right normal]
-		I'm not gettin' any younger, that's for sure.
-		Some days, just keeping the{n}lights on can take all my energy.
-		The {+MOUNTAIN} still keeps me sharp, though.
+		ฉันไม่ได้อายุน้อยกว่านี้แน่นอน
+		บางวันเพียงแค่เปิดไฟ {n} ไว้ก็สามารถใช้พลังงานทั้งหมดของฉันได้
+		อย่างไรก็ตาม {+MOUNTAIN} ยังคงทำให้ฉันเฉียบคม
 
 		[GRANNY right mock]
-		I'm not ready to give up the ghost anytime soon.
+		ฉันยังไม่พร้อมที่จะเป็นผีในเร็ว ๆ นี้
 
 		[MADELINE left normal]
-		I'd expect no less from you.
+		ฉันไม่ได้หวังแบบนั้น
 
 		[MADELINE left sad]
-		Take care of yourself.
+		ดูแลตัวเองด้วย
 
 	APP_OLDLADY_LOCKED=
 		[MADELINE left sad]
-		That door up ahead won't budge.
-		Is there another way in?
+		ประตูข้างหน้าจะไม่ขยับ
+		มีวิธีอื่นอีกไหม?
 
 		[GRANNY right normal]
-		I'm afraid not, dear.
+		ฉันเกรงว่าจะไม่
 
 		[GRANNY right mock]
-		You think the {+MOUNTAIN} is gonna{n}start going easy on you now?
+		คุณคิดว่า {+MOUNTAIN} จะ {n} เริ่มต้นได้ง่ายสำหรับคุณตอนนี้หรือ?
 
 		[GRANNY right normal]
-		I guess it doesn't think you're ready yet.
+		ฉันคิดว่าคุณยังไม่พร้อม
 
 		[MADELINE left sad]
-		Okay, {+CELESTE_MOUNTAIN} might be {~}weird and magical.{/~}
+		โอเค, {+CELESTE_MOUNTAIN} อาจจะ {~}ประหลาดและมหัศจรรย์{/~}
 
 		[MADELINE left upset]
-		But now you're telling me it can {~}"think",{/~} too?
+		แต่ตอนนี้คุณกำลังบอกฉันว่ามันสามารถ {~}"คิด",{/~} ได้เช่นกัน?
 
 		[GRANNY right normal]
-		It doesn't think like you or me.
-		It's like... how a river thinks to flow to the sea.
-		You can make it sound crazy if you want.
+		มันไม่ได้คิดเหมือนคุณหรือฉัน
+		มันเหมือนกับว่า... แม่น้ำคิดว่าจะไหลไปสู่ทะเลได้อย่างไร
+		คุณสามารถทำให้มันฟังดูบ้าได้ถ้าคุณต้องการ
 
 		[MADELINE left upset]
-		I know better than to doubt you.
+		ฉันไม่รู้ดีกว่าที่จะสงสัยคุณ
 
 		[MADELINE left sad]
-		How do I convince it I'm ready?
+		ฉันจะมั่นใจได้อย่างไรว่าฉันพร้อมแล้ว?
 
 		[GRANNY right normal]
-		Heck if I know.
-		I'd retrace my steps, and really pay attention.
-		{+CELESTE_MOUNTAIN} must have more to teach you.
+		ถ้าฉันรู้
+		ฉันจะย้อนรอยก้าวและให้ความสนใจจริงๆ
+		{+CELESTE_MOUNTAIN} ต้องมีมากกว่านี้ที่จะสอนคุณ
 
 	APP_ENDING=
-		...this is it?
-		This is what's at the center of all of this?
-		It's so empty... and vast...
-		Yet it feels nostalgic somehow.
-		And peaceful.
+		...นี่ไง?
+		นี่คือจุดศูนย์กลางของทั้งหมดนี้?
+		มันช่างว่างเปล่า... และกว้างใหญ่...
+		ถึงกระนั้นมันก็รู้สึกคิดถึง
+		และสงบ
 
 	CH9_GRAVESTONE=
 		[MADELINE left sad]
 		{+GRANNY}...
 		[MADELINE left sadder]
-		I can't believe you're gone, you old bat.
+		ฉันไม่อยากจะเชื่อเลยว่าคุณจากไปแล้ว, ยายแก่
 
 		[MADELINE left distracted]
-		Well,{0.2} I guess I can.
+		ก็,{0.2} ฉันคิดว่าฉันทำได้
 
 		[MADELINE left sadder]
-		It sounded like you were saying goodbye{n}in the last letter you sent me.
+		ดูเหมือนว่าคุณกำลังบอกลา {n} ในจดหมายฉบับสุดท้ายที่คุณส่งถึงฉัน
 
 		{silent_trigger 0 Step Forward}
 		
 		[MADELINE left sadder]
-		This isn't fair. I need you.
+		นี่ไม่ยุติธรรมเลย ฉันต้องการคุณ
 
 		[MADELINE left angry]
-		You didn't prepare me for any of this.
+		คุณไม่ได้เตรียมฉันไว้สำหรับเรื่องนี้
 
 		{trigger 1 Badeline Appears}
 
 		[BADELINE left scoff]
-		What do you want her to do, apologize?
+		คุณต้องการให้เธอทำอะไร ขอโทษ?
 
 		[BADELINE left upset]
-		She's gone.
+		เธอจากไปแล้ว
 
 		[BADELINE left angry]
-		And you didn't even go to the funeral.
+		และคุณไม่ได้ไปงานศพด้วยซ้ำ
 
 		{trigger 2 Sit Down}
 
 		[MADELINE left distracted]
-		I know, I just... couldn't.
+		ฉันรู้, ฉันแค่...
 
 		[MADELINE left sadder]
-		I fell apart.
+		ฉันล้มเหลว
 
 		[MADELINE left sadder]
-		I'm so sorry, {+GRANNY}.
+		ฉันขอโทษจริงๆ, {+GRANNY}.
 
 		[BADELINE left angry]
-		{~}Sorry{/~} won't bring her back.
+		{~}ขอโทษ{/~} จะไม่พาเธอกลับมา
 
 		[MADELINE left sadder]
-		You're right.
+		คุณพูดถูก
 
 		[MADELINE left sad]
-		It was selfish of me to come here.
+		มันเป็นความเห็นแก่ตัวของฉันที่มาที่นี่
 
 	CH9_FLYING_TO_THE_MOON=
 		[BADELINE right concerned]
-		Where are we going, {+MADELINE}?
+	เรากำลังจะไปไหน, {+MADELINE}?
 
 		[MADELINE left sad]
-		We have to follow that bird.
-		It's {+PART_OF_GRANNY}, just like you're {+PART_OF_ME}.
+		เราต้องไล่ตามนกตัวนั้น
+		ซึ่งก็คือ {+PART_OF_GRANNY} เหมือนกับคุณ {+ PART_OF_ME}
     
 		[BADELINE right worried]
-		I thought it was just her pet or something...
+		ฉันคิดว่ามันเป็นแค่สัตว์เลี้ยงของเธอหรืออะไรอย่างอื่น...
 
 		[MADELINE left distracted]
-		It {~}has{/~} to be more than that.
+		มัน  {~}มีค่า{/~} มากกว่านั้น
 
 		[MADELINE left sad]
-		That bird was always looking out for me{n}on the {+MOUNTAIN}, just like {+GRANNY} did.
+		นกตัวนั้นมักจะมองหาฉัน {n} บน {+MOUNTAIN} เหมือนกับที่ {+GRANNY} ทำ
 
 		[BADELINE right concerned]
-		{+MADELINE}... I hate to say it, but...
+		{+MADELINE}... ฉันไม่อยากพูด แต่...
 
 		[BADELINE right worriedAlt]
-		You're in denial.
+		คุณไม่ยอมรับ
 
 		[BADELINE right worried]
-		It's just a bird.
+		มันเป็นแค่นก
     
 		[MADELINE left upset]
-		Just shut up and help me for once, okay?
+		เพียงแค่หุบปากและช่วยฉันสักครั้ง โอเค?
 
 	CH9_LANDING=
 		[BADELINE left worried]
-		Uh... we're really high up.
+		เอ่อ... เราอยู่สูงจริงๆ
 
 		{trigger 0 Badeline turns}
 
 		[BADELINE left worriedAlt flip]
-		The mountain looks like a molehill from here.
+		ภูเขาดูเหมือนจอมปลวกจากที่นี่
 
 		{trigger 0 Badeline turns}
 
 		[BADELINE left worried]
-		We should really turn back.
+		จริงๆเราควรกลับ
 
 		[MADELINE right upset]
-		We don't have time to argue about this.
+		เราไม่มีเวลาเถียงเรื่องนี้
 
 		[BADELINE left concerned]
-		How are you even breathing up here?
+		คุณยังหายใจอยู่ที่นี่ได้อย่างไร?
 
 		[MADELINE right sad]
-		{+GRANNY} wants us to follow her.
+		{+GRANNY} ต้องการให้เราติดตามเธอไป
 
 		[MADELINE right distracted]
-		We can't let her down again.
+		เราไม่สามารถทำให้เธอผิดหวังได้อีกแล้ว.
 
 		[BADELINE left angryAlt]
-		{~}...it's a bird,{/~} {+MADELINE}.
+		{~}...มันคือนก,{/~} {+MADELINE}.
 
 		[BADELINE left angry]
-		{+GRANNY} is gone.
+		{+GRANNY} ไปแล้ว
 
 		[MADELINE right angry]
-		You {*}really{/*} think that's just a regular bird?
+		คุณ {*} คิด {/*} ว่าเป็นแค่นกธรรมดาใช่ไหม?
 
 		[MADELINE right sad]
-		It's {+PART_OF_HER}, and it's still here somehow.
+		มันคือ {+PART_OF_HER},  และมันก็ยังอยู่ที่นี่.
 
 		[MADELINE right distracted]
-		Maybe there's a way to bring her back.
+		บางทีอาจมีวิธีที่จะนำเธอกลับมา
 
 		[MADELINE right sad]
-		I have to do... something.
+		ฉันต้องทำอะไรบางอย่าง
 
 		[BADELINE left angryAlt]
 		...
-		I can't help you with this.
+		ฉันช่วยคุณเรื่องนี้ไม่ได้
 
 		[MADELINE right angry]
-		Then {*}leave!{/*}
+		แค่ {*}ออกไป!{/*}
 
 		{trigger 1 Badeline Vanishes}
 
 		[MADELINE left determined]
-		Don't worry, {+GRANNY}.
-		I won't lose you.
+		ไม่ต้องกังวล, {+GRANNY}.
+		ฉันจะไม่ยอมเสียคุณไป
 
 	CH9_FAKE_HEART=
 		[MADELINE left distracted]
-		Wait, no...
+		เดี๋ยว, ไม่...
 
 		[MADELINE left sad]
-		This can't be the end.
+		นี่ไม่ใช่จุดจบ
 
 	CH9_KEEP_GOING=
 		[MADELINE left sadder]
-		{+GRANNY} is still out there somewhere.
+		{+GRANNY} ยังคงอยู่ที่ไหนสักแห่ง
 
 		{trigger 0 Step Forward}
 
 		[MADELINE left determined]
-		Which means I need to keep going.
+		แปลว่าฉันต้องไปต่อ
 
 	CH9_MISS_THE_BIRD=
 		[MADELINE left angry]
-		{~}Hey!{/~}
-		Don't you want me to help you?
+		{~}เฮ้!{/~}
+		คุณไม่ต้องการให้ฉันช่วยคุณเหรอ?
 
 		[MADELINE left sadder]
-		...don't you want to see me again, {+GRANNY}?
+		...คุณไม่อยากเจอฉันอีกใช่ไหม, {+GRANNY}?
 
 		{trigger 0 stand up, face left }
 
 		[MADELINE left sad flip]
-		I don't understand.
+		ฉันไม่เข้าใจ
 
 		[MADELINE left distracted flip]
-		Are you testing me?
-		Are you just afraid to ask for help?
+		คุณกำลังทดสอบฉันหรือไม่?
+		คุณกลัวที่จะขอความช่วยเหลือหรือไม่?
 
 		[MADELINE left sadder flip]
-		Maybe {+PART_OF_ME} was right.{n}Maybe it {~}is{/~} just a bird.
+		บางที {+PART_OF_ME} อาจจะถูก{n}บางทีมันอาจจะ {~}เป็น{/~} แค่นก
 		...
 
 		{trigger 1 take a step left}
 
 		[MADELINE left sad flip]
-		Unless...
+		เว้นแต่...
 
 		{trigger 2 take a step right}
 
 		[MADELINE left surprised]
-		The bird doesn't want me to save {+GRANNY}.
+		นกไม่ต้องการให้ฉันช่วยชีวิต {+GRANNY}.
 		
 		{trigger 3 black hole flickers }
 
 		[MADELINE left sadder]
-		It's trying to stop me, just like {+PART_OF_ME}.
-		I'm alone up here.
+		มันพยายามหยุดฉันเหมือนกับ {+PART_OF_ME}.
+		ฉันอยู่คนเดียวบนนี้
 
 		{trigger 4 black hole flickers more, tiles to crack into the sci-fi one}
 
 		[MADELINE left angry]
-		Well, we don't need their help, right {+GRANNY}?
+		เราไม่ต้องการความช่วยเหลือใช่ไหม  {+GRANNY}?
 
 		[MADELINE left together]
-		Don't worry, I won't give up on you!
-		I'll catch that stupid bird and set you free.
+		ไม่ต้องกังวลฉันจะไม่ยอมแพ้!
+		ฉันจะจับนกโง่ตัวนั้นและปล่อยให้คุณเป็นอิสระ
 
 	CH9_HELPING_HAND=
 		[MADELINE left upset]
-		I didn't ask for your help.
+		ฉันไม่ได้ขอความช่วยเหลือจากคุณ
 		
 		[BADELINE right angryAlt]
 		I know, but come on {+MADELINE}...
-		Think this through.
+		ลองคิดดูสิ
 
 		[BADELINE right angry]
 		What's your endgame here?
@@ -4726,11 +4726,11 @@
 		{trigger 0 Madeline faces away}
 
 		[MADELINE left determined flip]
-		All that matters is finding {+GRANNY}.
-		Then maybe I can bring her home...
+		สิ่งสำคัญคือการค้นหา {+GRANNY}.
+		บางทีฉันอาจจะพาเธอกลับบ้าน...
 
 		[MADELINE left sadder flip]
-		Even if the whole universe is against me.
+		คุณไม่กังวลเกี่ยวกับการหลงทางที่นี่เหรอ
 		
 		[BADELINE right worriedAlt]
 		...
@@ -4739,78 +4739,78 @@
 		Aren't you worried about getting lost up here?
 
 		[MADELINE left angry flip]
-		I'll figure it out.
+		ฉันจะคิดออก
 
 		[BADELINE right worriedAlt]
 		...
 
 		[BADELINE right worried]
-		Look, {+MADELINE}...
+		ดูซิ, {+MADELINE}...
 
 		[BADELINE right worriedAlt]
-		We're in {~}space{/~} chasing a {~}mysterious bird{/~}.
+		เราอยู่ใน {~}อวกาศ {/~} ไล่ตาม {~}นกลึกลับ{/~}.
 
 		[BADELINE right upset]
-		None of this is real.
+		สิ่งนี้ไม่เป็นความจริง
 
 		[BADELINE right concerned]
-		You're dreaming.
+		คุณกำลังฝัน
 
 		[MADELINE left sadder flip]
 		...
 
 		[BADELINE right concerned]
-		...she's gone.
+		...เธอจากไปแล้ว
 
 		[BADELINE right upset]
-		It's time to wake up now.
+		ได้เวลาตื่นแล้ว
 		
 		[MADELINE left sadder flip]
-		But if we wake up, we'll never see {+GRANNY} again...
+		แต่ถ้าเราตื่นขึ้น เราจะไม่เห็น  {+GRANNY} อีกเลย...
 
 		{trigger 1 Madeline faces towards badeline}
 		
 		[MADELINE left angry]
-		I can't believe you want her to disappear forever!
-		You're always so {*}selfish{/*}.    
+		ไม่อยากเชื่อเลยว่าคุณอยากให้เธอหายไปตลอดกาล
+		คุณมักจะ {*}เห็นแก่ตัว{/*}.    
 
 		[BADELINE right angry]
 		...
 		
 		[BADELINE right angryAlt]
-		First of all, it's a {~}bird{/~}.
-		We don't {~}know{/~} that it's her.
+		ก่อนอื่นมันคือ {~} นก {/~}
+		เราไม่รู้ {~} รู้ {/~} ว่าเป็นเธอ
 		
 		[BADELINE right yell]
-		And {*}second{/*} of all...
+		และ  {*}สอง{/*} จากทั้งหมด...
 		...
 
 		[BADELINE right sigh]
-		...we need to take a step back here.
+		...เราต้องย้อนกลับไปที่นี่
 		
 		{trigger 2 Madeline steps towards badeline}
 
 		[MADELINE left angry]
-		No, {!}{*}you{/*}{/!} need to take a step back.
-		{*}I'm doing this.{/*}
+		ไม่ {!} {*} คุณ {/*} {/!} ต้องถอยไป
+		{*}ฉันกำลังทำสิ่งนี้อยู่{/*}
 
 		[MADELINE left sad]
-		With or without you. 
-		I'm done letting you hold me back.
+		มีหรือไม่มีคุณ.
+		ฉันทำเสร็จแล้วให้คุณดึงฉันกลับ
 
 		[MADELINE left sadder]
-		{+GRANNY} needs me.
+		{+GRANNY} ต้องการฉัน
 		
 		[BADELINE right simple_sigh]
-		Okay.
-		Good luck.
+		ตกลง
+		โชคดี
 		
 	CH9_CATCH_THE_BIRD=
 		[MADELINE left surprised]
-		Got you! Finally!
+		ได้แล้ว! ในที่สุด!
 
 		[MADELINE left angry]
-		Now where's {+GRANNY}!?
+		ตอนนี้ {+GRANNY} อยู่ที่ไหน!?
 
 		{trigger 0 bird looks hurt}
 
@@ -4818,190 +4818,190 @@
 		...
 
 		[MADELINE left surprised]
-		Oh no. 
-		Are you okay?
+		ไม่นะ 
+		คุณสบายดีไหม?
 
 		{trigger 1 bird squaks}
 		
 		[MADELINE left sad]
-		I'm sorry, I didn't mean to hurt you.
+		ฉันขอโทษฉันไม่ได้ตั้งใจจะทำร้ายคุณ
 		
 		{trigger 2 approach bird, it moves away}
 		
 		[MADELINE left sad]
-		Wait! Please don't leave.
+		เดี๋ยว! อย่าเพิ่งไป
 		
 		{trigger 3 bird flys out of the camera}
 		
 		[MADELINE left sadder]
-		At least tell me...
-		You're {+PART_OF_GRANNY}, right?
-		If you have to go, then...
+		อย่างน้อยก็บอกฉันว่า ...
+		คุณคือ {+PART_OF_GRANNY} ใช่ไหม
+		ถ้าต้องไปล่ะก็...
 
 		[MADELINE left sad]
-		Take me with you.
+		พาฉันไปกับคุณ
 		
 		{trigger 4 badeline appears}
     
 		[BADELINE right yell]
-		{+MADELINE}, stop!
+		{+MADELINE}, หยุด!
 
 		[BADELINE right concerned]
-		You can't go with her.
+		คุณไปกับเธอไม่ได้
 		
 		[MADELINE left angry]
-		Shut up!
-		You couldn't force me to give up on the {+MOUNTAIN}.
-		And you can't force me to give up on {+GRANNY}.
+		หุบปาก!
+		คุณบังคับให้ฉันยอมแพ้ {+MOUNTAIN} ไม่ได้
+		และคุณบังคับให้ฉันยอมแพ้ {+GRANNY} ไม่ได้
 
 		[MADELINE left sadder]
-		{*}Go away.{/*}
+		{*}ไปให้พ้น{/*}
 		
 		[BADELINE right concerned]
 		...
 
 		[BADELINE right worried]
-		I'm not forcing you.
+		ฉันไม่ได้บังคับคุณ
 
 		[BADELINE right concerned]
-		I'm asking you.
+		ฉันกำลังถามคุณ
 
 		{trigger 5 Wait a beat}
 
 		[BADELINE right worriedAlt]
-		I miss {+GRANNY} too.
-		She meant a lot to both of us.
+		ฉันก็คิดถึง {+GRANNY} ด้วย
+		เธอมีความหมายมากสำหรับเราทั้งคู่
 
 		[MADELINE left sad]
-		Then why is it so easy for you to leave her behind?
+		แล้วทำไมคุณถึงทิ้งเธอไว้ข้างหลังมันง่ายขนาดนี้?
 
 		[BADELINE right worriedAlt]
-		It's {~}not{/~} easy.
+		มัน  {~}ไม่ใช่ {/~} ง่าย ๆ
 
 		[BADELINE right worried]
-		Maybe I pushed us to get over it too quickly...
+		บางทีฉันอาจจะผลักดันให้เราผ่านมันไปเร็วเกินไป
 
 		[BADELINE right concerned]
-		But this isn't healthy either.
-		I just want us to survive this.
+		แต่ก็ไม่ดีต่อสุขภาพเช่นกัน
+		ฉันแค่อยากให้เรารอดจากสิ่งนี้
 
 		{trigger 6 Madeline sits}
 		
 		[MADELINE left sadder flip]
 		...
-		I know she's gone.
-		And this is just a dream.
-		Catching this bird won't bring her back.
+		ฉันรู้ว่าเธอจากไป
+		และนี่เป็นเพียงความฝัน
+		การจับนกตัวนี้จะไม่ทำให้เธอกลับมา
 		
 		{trigger 7 badeline hugs madeline}
 		
 		[BADELINE left concerned]
-		I'm so sorry, {+MADELINE}.
+		ขอโทษด้วย, {+MADELINE}.
 		
 		[BADELINE left concerned]
-		Let's wake up, and we'll face this together.
+		ตื่นได้แล้วเราจะเผชิญมันไปด้วยกัน
 		
 		[MADELINE right sadder]
 		...
 
 		[MADELINE right distracted]
-		No.
+		ไม่.
 
 		[MADELINE right sad]
-		Not yet.
+		ไม่ใช่ตอนนี้
 
 		{trigger 8 stand up}
 
 		[MADELINE right sad]
-		I want to set things right first.
+		ฉันต้องการทำสิ่งต่างๆให้ถูกต้องก่อน
     
 		[BADELINE left upset]
-		What do you mean?
+		คุณหมายถึงอะไร
 		
 		[MADELINE right sad]
-		The bird, it's trapped here because of me.
+		นกมันติดอยู่ที่นี่เพราะฉัน
 		
 		{trigger 9 shift camera over to the bird}
 		
 		[MADELINE right sad flip]
-		We need to help it escape before we leave.
-		{+GRANNY} wouldn't want it to be stuck like this.
+		เราต้องช่วยมันหนีก่อนที่เราจะจากไป
+		{+GRANNY} ไม่อยากให้มันค้างแบบนี้
 		
 		[BADELINE left concerned]
-		You're right. 
+		คุณพูดถูก
 
 		[BADELINE left normal]
-		Let's do it.
+		ลงมือทำกันเลย
 
 		[BADELINE left upset]
-		But as soon as we’re done,{n}we need to wake up.
+		แต่ทันทีที่เราทำเสร็จ {n} เราต้องตื่น
 
 		[BADELINE left worried]
-		This place is so {*}weird{/*}.{n}I want to go home.
+		สถานที่นี้ {*} แปลกมาก {/*} {n} ฉันอยากกลับบ้าน
 
 	CH9_LAST_ROOM=
 		[BADELINE right normal]
-		This is it! We're almost out of here.
+		นี่ไง! เราเกือบจะออกจากที่นี่แล้ว
 
 		[MADELINE left determined]
-		Let's do this, for {+GRANNY}.
+		มาเริ่มกันเลยเพื่อ {+GRANNY}.
 
 	CH9_LAST_ROOM_ALT=
 		[BADELINE right concerned]
-		Are you alright, {+MADELINE}?
+		คุณสบายดีไหม, {+MADELINE}?
 
 		[MADELINE left sad]
-		We're so close, but it feels impossible...
+		ราอยู่ใกล้มาก แต่ก็รู้สึกเป็นไปไม่ได้...
 
 		[BADELINE right upset]
-		Come on, just a few more tries.
+		มาเถอะ พยายามอีกสองสามที
 
 		[BADELINE right normal]
-		We can do this.
+		พวกเราสามารถทำได้.
 
 	CH9_LAST_BOOST=
 		[BADELINE right normal]
-		Say goodbye to her for me.
+		บอกลาเธอเพื่อฉัน
 
 	CH9_FAREWELL=
 		[MADELINE left normal]
 		{+GRANNY}!
 
 		[GRANNY right normal]
-		Hey there, kiddo.
+		ทางนี้, เจ้าหนู
 		
 		[MADELINE left normal]
-		It's so great to see you.
-		I didn't know what to do without you.
+		ดีใจมากที่ได้พบคุณ
+		ฉันไม่รู้ว่าจะทำอย่างไรถ้าไม่มีคุณ
 
 		[MADELINE left sad]
 		...
-		But you aren't real...
+		แต่คุณไม่มีจริง...
 
 		[MADELINE left sadder]
-		This is just a dream.
+		นี่เป็นเพียงความฝัน
 		
 		[GRANNY right normal]
-		So what?
-		That didn't stop you from coming all this way.
-		You finally found me, and {~}now{/~}{n}you care that it's just a dream?
+		แล้วไง?
+		นั่นไม่ได้หยุดคุณไม่ให้มาทางนี้
+		ในที่สุดคุณก็พบฉันและ {~} ตอนนี้ {/~} {n} คุณสนใจไหมว่ามันเป็นแค่ความฝัน
 		
 		[GRANNY right mock]
-		Quit making excuses and{n}say what you need to say.
+		เลิกแก้ตัวและ {n} พูดในสิ่งที่คุณต้องการจะพูด
 		
 		[MADELINE left sad]
 		...
 
 		[MADELINE left distracted]
-		I'm sorry that I didn't come to your funeral.
+		ฉันขอโทษที่ฉันไม่ได้มางานศพของคุณ
 
 		[MADELINE left sadder]
-		I couldn't do it... I just shut down.
+		ฉันไม่สามารถทำได้...
 		
 		{silent_trigger 0 laugh}
 
 		[GRANNY right laugh]
-		Heh, that sounds familiar.
+		เฮ้ นั่นฟังดูคุ้น ๆ
 		
 		[MADELINE left upset]
 		...
@@ -5014,146 +5014,146 @@
 		{silent_trigger 0 laugh}
 
 		[GRANNY right laugh]
-		I'm dead!
+		ฉันตายแล้ว!
 
 		{silent_trigger 1 stop laughing}
 
 		[GRANNY right mock]
-		Funerals are for all you suckers{n}stuck living without me.
+		งานศพมีไว้สำหรับทุกคนที่ {n} อยู่โดยไม่มีฉัน
 		
 		{trigger 2 take a step forward}
 
 		[MADELINE left normal]
-		Thank you for looking out for me on the {+MOUNTAIN}.
+		ขอบคุณที่คอยดูแลฉันบน {+MOUNTAIN}.
 
 		[MADELINE left distracted]
-		You helped me so much, and...
+		คุณช่วยฉันมากและ...
 
 		[MADELINE left sadder]
-		I really miss you.
+		ฉันคิดถึงคุณจริงๆ.
 
 		{trigger 3 granny fades away}
 		
 		[MADELINE left sadder]
-		What am I supposed to do now?
-		Just keep going, like nothing happened?
+		ฉันควรทำอย่างไรตอนนี้
+	ทำไปเรื่อย ๆ เหมือนไม่มีอะไรเกิดขึ้น?
 
 		{silent_trigger 4 fade to white}
 
 		[MADELINE left panic]
-		Like you aren't... gone forever?
+		เหมือนคุณไม่ ... หายไปตลอดกาล?
 
 	CH9_END_CINEMATIC=
 		{anchor bottom}
 
 		[WEBCAM_THEO right excited]
-		There she is!
+		เธออยู่นี่!
 
 		[WEBCAM_THEO right normal]
-		Long time no see, {# F94A4A}Strawberry{#}.
+		ไม่ได้เจอกันนานเลย {# F94A4A} สตรอเบอร์รี่ {#}
 
 		[MADELINE left sad]
-		Hey {+THEO}.
+		เฮ้ {+THEO}.
 		
 		[WEBCAM_THEO right normal]
 		It's been forever!
 
 		[WEBCAM_THEO right thinking]
-		You went off the grid!{n}What happened to you?
+		คุณเดินออกจากเส้นทาง! {n} เกิดอะไรขึ้นกับคุณ?
 		
 		[MADELINE left sad]
-		Yeah, sorry for not responding to your messages...
+		ใช่ ขอโทษที่ไม่ได้ตอบข้อความของคุณ...
 
 		[MADELINE left distracted]
-		...or answering your calls...
+		...หรือรับสาย...
 		...
-		...or replying to your emails.
+		...หรือตอบกลับอีเมลของคุณ
 
 		[MADELINE left sad]
-		I kind of had a breakdown when {+GRANNY} died.
+		ฉันรู้สึกพังทลายเมื่อ {+GRANNY} เสียชีวิต
 
 		[MADELINE left distracted]
-		And then I felt weird messaging you.
-		I thought maybe you were{n}mad at me for disappearing.
+		แล้วฉันก็รู้สึกแปลกๆ ที่ส่งข้อความถึงคุณ
+	ฉันคิดว่าคุณอาจ {n} โกรธฉันที่หายตัวไป
 
 		[MADELINE left sad]
 		It snowballed from there.
 		
 		[WEBCAM_THEO right thinking]
-		Yeah yeah, I know you.
+		ใช่ ฉันรู้จักคุณดี
 
 		[WEBCAM_THEO right normal]
-		I figured the funeral might've{n}triggered your anxiety, NBD.
+		ฉันคิดว่างานศพอาจ {n} กระตุ้นความวิตกกังวลของคุณ
 
 		[WEBCAM_THEO right thinking]
-		Next time, {~}at least{/~} just let me know you're still alive.
+		ครั้ง, {~}อย่างน้อย{/~} ก็บอกให้ฉันรู้ว่าคุณยังมีชีวิตอยู่
 
 		[WEBCAM_THEO right normal]
-		You feeling any better?
+		คุณรู้สึกดีขึ้นหรือไม่?
 		
 		[MADELINE left sad]
-		Yeah...
+		ใช่...
 
 		[MADELINE left distracted]
-		I'm finally starting to come to terms with it.
+		ในที่สุดฉันก็เริ่มที่จะเข้าใจมัน
 
 		[MADELINE left sad]
-		When I first met {+GRANNY},{n}I thought she was crazy.
+		ตอนที่ฉันพบ {+GRANNY} ครั้งแรก {n} ฉันคิดว่าเธอบ้า
 
 		[MADELINE left distracted]
-		But then I got to know her...
+		แต่แล้วฉันก็ได้รู้จักเธอ...
 
 		[MADELINE left upset]
-		...and I thought she was mean.
+		...และฉันคิดว่าเธอใจร้าย
 
 		[MADELINE left sad]
-		But she knew what I needed to hear,{n}and she really helped me.
+		แต่เธอรู้ว่าฉันต้องการฟังอะไร {n} และเธอช่วยฉันจริงๆ
 
 		[MADELINE left sadder]
-		I miss her a lot.
+		ฉันคิดถึงเธอมาก
 		
 		[WEBCAM_THEO right normal]
-		Yeah, me too.
+		ใช่ฉันด้วย
 
 		[WEBCAM_THEO right thinking]
-		I honestly thought she'd live forever.
+		ฉันคิดว่าเธอคงอยู่ตลอดไป
 
 		[WEBCAM_THEO right excited]
-		Oh! That reminds me!{n}I have to show you something.
+		โอ้! นั่นเตือนฉัน! {n} ฉันต้องแสดงบางอย่างให้คุณเห็น
 		
 		[MADELINE left normal]
-		Oh?
+		โอ้?
 		
 		[WEBCAM_THEO right excited]
-		Remember how I told you my grandpa went{n}to {+CELESTE_MOUNTAIN} when he was younger?
+		จำได้ไหมว่าฉันบอกคุณว่าคุณปู่ของฉันไป {n} ที่ {+CELESTE_MOUNTAIN} ตอนที่เขายังเด็ก?
 
 		[WEBCAM_THEO right normal]
-		Well, I was going through{n}some of his old stuff with {+ALEX}...
-		And check out this photo I found.
+		ฉันกำลังอ่านบันทึก {n} ของเก่าของเขากับ {+ ALEX}...
+		และตรวจสอบภาพนี้ที่ฉันพบ
      
  		{trigger 0 Shows the photo of Theo's grandpa with Granny at Celeste Mountain.}
  		
  		[MADELINE left surprised]
-		Is that {+GRANNY}!? With your grandpa?
+		นั่น {+GRANNY}!? กับคุณปู่ของคุณ
 
 		[MADELINE left normal]
-		{+THEO}, that's amazing!
-		It looks like they were friends.
+		{+THEO}, น่าทึ่งมาก!
+		ดูเหมือนว่าพวกเขาเป็นเพื่อนกัน
 		
 		[WEBCAM_THEO right excited]
-		Just like us!
+		เช่นเดียวกับเรา!
 
 		[WEBCAM_THEO right thinking]
-		It really sucks that they're gone.
+		น่าเสียดายที่พวกเขาจากไปแล้ว
 
 		[WEBCAM_THEO right normal]
 		But it's nice to know that we{n}shared the {+MOUNTAIN} with them.
 		
 		[MADELINE left normal]
-		Yeah...
+		ใช่...
 
 		[MADELINE left peaceful]
-		{>> 0.3}That {~}is{/~} nice.{>>}
+		{>> 0.3}{~}นั่นเป็นสิ่งที่ดี{/~}{>>}
 
 # Crystal Hearts
 
@@ -5220,3 +5220,4 @@
 	WAVEDASH_PAGE5_INFO2=			{#ff0000}If you don't get much distance{#}{n}you're starting {~}too far{/~} from the ground.
 
 	WAVEDASH_PAGE6_TITLE=			Happy Wavedashing!
+# แปลภาษาไทยโดย zerlkung@modmycon
